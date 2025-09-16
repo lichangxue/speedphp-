@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="sogou_site_verification" content="OxhrMu4IEl" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="wap-font-scale"  content="no" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><{$config.site_title}></title>
+    <meta name="keywords" content="<{$config.site_keywords}>" />
+    <meta name="description" content="<{$config.site_description}>" />
+    <meta name="generator" content="<{$config.site_generator}>" />
+    <meta name="author" content="<{$config.site_author}>" />
+    <meta property="bytedance:published_time" content="<{$pt}>" />
+    <meta property="bytedance:lrDate_time" content="<{$pt}>" />
+    <meta property="bytedance:updated_time" content="<{$pt}>" />
+    <link rel="shortcut icon" type="image/ico" href="/i/img/favicon.ico" />
+    <!-- 引入外部资源 -->
+    <script src="/i/js/tailwindcss.js"></script>
+    <link href="/i/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="/i/js/chart.umd.min.js"></script>
+  
+
+  
+  <!-- Tailwind配置 -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#E63946',     // 凤凰红作为主色调
+            secondary: '#1D3557',   // 深蓝作为辅助色
+            accent: '#457B9D',      // 亮蓝作为强调色
+            light: '#F1FAEE',       // 浅色背景
+            neutral: '#A8DADC',     // 中性色
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      }
+    }
+  </script>
+  
+  <!-- 自定义工具类 -->
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .text-gradient {
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .bg-blur {
+        backdrop-filter: blur(8px);
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+      .promo-badge {
+        position: relative;
+      }
+      .promo-badge::after {
+        content: "推广位";
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        background: rgba(230, 57, 70, 0.9);
+        color: white;
+        font-size: 10px;
+        padding: 1px 4px;
+        border-radius: 3px;
+        z-index: 10;
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+        100% { transform: translateY(0px); }
+      }
+    }
+  </style>
+  
+  <!-- 引入字体 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans text-gray-800 overflow-x-hidden">
+  <header>
+  </header>
+
+  <{include file=$__template_file}>
+  
+  <!-- 底部 -->
+  <footer class="bg-secondary text-white pt-12 pb-6">
+    
+  </footer>
+  
+  <!-- JavaScript -->
+  <script>
+   
+  </script>
+</body>
+</html>
