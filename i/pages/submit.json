@@ -1,0 +1,416 @@
+{
+    "type": "page",
+    "title": "免费收录",
+    "body": [
+      {
+        "type": "alert",
+        "body": [
+          {
+            "type": "tpl",
+            "tpl": "提示：",
+            "inline": true,
+            "wrapperComponent": "h3",
+            "id": "u:f88576105998",
+            "themeCss": {
+              "baseControlClassName": {
+                "font:default": {
+                  "fontWeight": "var(--fonts-weight-3)"
+                }
+              }
+            }
+          },
+          {
+            "type": "tpl",
+            "tpl": "<strong>重要！重要！<strong> <span style='color:red;'>名称-介绍-头像中不得出现：赛车，PK，飞艇，彩票类，政治，淫秽,博彩,等法律违禁词,发现一律封号！</span>",
+            "inline": true,
+            "id": "u:ce897001fbee",
+            "wrapperComponent": "h4"
+          }
+        ],
+        "level": "danger",
+        "id": "u:a820ff4bb200",
+        "className": "b-danger"
+      },
+      {
+        "id": "u:faf6f27d3915",
+        "type": "form",
+        "title": "",
+        "mode": "flex",
+        "labelAlign": "top",
+        "dsType": "api",
+        "feat": "Insert",
+        "body": [
+          {
+            "type": "tabs",
+            "tabs": [
+              {
+                "title": "AI智能体、公众号",
+                "body": [
+                  {
+                    "type": "select",
+                    "label": "",
+                    "name": "content_type",
+                    "options": [
+                      {
+                        "label": "AI智能体",
+                        "value": "314"
+                      },
+                      {
+                        "label": "公众号",
+                        "value": "11"
+                      },
+                      {
+                        "label": "小程序",
+                        "value": "243"
+                      },
+                      {
+                        "label": "小游戏",
+                        "value": "244"
+                      }
+                    ],
+                    "id": "u:1d6dc92b7382",
+                    "multiple": false,
+                    "value":"314",
+                    "placeholder": "选择类型"
+                  },
+                  {
+                    "type": "input-tree",
+                    "label": "",
+                    "name": "category_id",
+                    "id": "u:373e05238d62",
+                    "multiple": false,
+                    "enableNodePath": false,
+                    "hideRoot": true,
+                    "showIcon": true,
+                    "initiallyOpen": true,
+                    "source": {
+                      "url": "/web/api/Categorys.html?ct=${content_type}",
+                      "method": "get",
+                      "requestAdaptor": "",
+                      "adaptor": "",
+                      "messages": {}
+                    },
+                    "labelField": "label",
+                    "valueField": "value",
+                    "showOutline": true,
+                    "searchable": true
+                  },
+                  {
+                    "type": "input-text",
+                    "label": "",
+                    "name": "title",
+                    "id": "u:f38af1b0b0c8",
+                    "placeholder": "输入标题",
+                    "description": ""
+                  },
+                  {
+                    "type": "input-text",
+                    "label": "",
+                    "name": "account_name",
+                    "id": "u:74d8a126de35",
+                    "placeholder": "公众号、小程序、小游戏等账号名称"
+                  },
+                  {
+                    "type": "input-city",
+                    "label": "",
+                    "name": "area",
+                    "allowCity": false,
+                    "extractValue": false,
+                    "id": "u:0062eb9ebf8f",
+                    "value": {}
+                  },
+                  {
+                    "type": "input-tag",
+                    "label": "",
+                    "name": "tags",
+                    "options": [],
+                    "id": "u:9341711b5ec7",
+                    "optionsTip": "输入标签，有利于推荐展示",
+                    "max": 10,
+                    "description": "输入标签后敲击回车确定输入"
+                  },
+                  {
+                    "type": "input-text",
+                    "label": "",
+                    "name": "author",
+                    "id": "u:747468f35c84",
+                    "placeholder": "运营者/开发者"
+                  },
+                  {
+                    "type": "input-text",
+                    "label": "",
+                    "name": "author_qq",
+                    "id": "u:b00f7bf9c90d",
+                    "placeholder": "运营者/开发者/个人QQ"
+                  },
+                  {
+                    "type": "input-url",
+                    "label": "",
+                    "name": "content_url",
+                    "id": "u:bcaaaf1ab9d9",
+                    "placeholder": "智能体体验地址",
+                    "validations": {},
+                    "validationErrors": {},
+                    "visibleOn": "${content_type==314}"
+                  },
+                  {
+                    "type": "grid",
+                    "columns": [
+                      {
+                        "body": [
+                          {
+                            "type": "input-image",
+                            "label": "应用封面图",
+                            "name": "thumbnail",
+                            "autoUpload": true,
+                            "proxy": true,
+                            "uploadType": "fileReceptor",
+                            "imageClassName": "r w-full",
+                            "id": "u:31c08ea71a64",
+                            "accept": ".jpeg, .jpg, .png, .gif",
+                            "multiple": false,
+                            "hideUploadButton": false,
+                            "bos": "default",
+                            "receiver": {
+                              "url": "/filetool/UploadfileForAmis.html",
+                              "method": "post",
+                              "requestAdaptor": "",
+                              "adaptor": "",
+                              "messages": {},
+                              "dataType": "form-data",
+                              "data": {
+                                "&": "$$"
+                              }
+                            }
+                          }
+                        ],
+                        "id": "u:8954f9c7e380"
+                      },
+                      {
+                        "body": [
+                          {
+                            "type": "input-image",
+                            "label": "应用二维码",
+                            "name": "qrcode",
+                            "autoUpload": true,
+                            "proxy": true,
+                            "uploadType": "fileReceptor",
+                            "imageClassName": "r w-full",
+                            "id": "u:13d977fc732d",
+                            "accept": ".jpeg, .jpg, .png, .gif",
+                            "multiple": false,
+                            "hideUploadButton": false,
+                            "receiver": {
+                              "url": "/filetool/UploadfileForAmis.html",
+                              "method": "post",
+                              "requestAdaptor": "",
+                              "adaptor": "",
+                              "messages": {},
+                              "dataType": "form-data",
+                              "data": {
+                                "&": "$$"
+                              }
+                            }
+                          }
+                        ],
+                        "id": "u:87fe1a2ffc0c"
+                      },
+                      {
+                        "body": [
+                          {
+                            "type": "input-image",
+                            "label": "作者二维码",
+                            "name": "author_code",
+                            "autoUpload": true,
+                            "proxy": true,
+                            "uploadType": "fileReceptor",
+                            "imageClassName": "r w-full",
+                            "id": "u:13d977732d",
+                            "accept": ".jpeg, .jpg, .png, .gif",
+                            "multiple": false,
+                            "hideUploadButton": false,
+                            "receiver": {
+                              "url": "/filetool/UploadfileForAmis.html",
+                              "method": "post",
+                              "requestAdaptor": "",
+                              "adaptor": "",
+                              "messages": {},
+                              "dataType": "form-data",
+                              "data": {
+                                "&": "$$"
+                              }
+                            }
+                          }
+                        ],
+                        "id": "u:87fe12ffc0c"
+                      }
+                    ],
+                    "id": "u:132a87c774ca"
+                  },
+                  {
+                    "type": "input-image",
+                    "label": "应用截图",
+                    "name": "describe_images",
+                    "autoUpload": true,
+                    "proxy": true,
+                    "uploadType": "fileReceptor",
+                    "imageClassName": "r w-full",
+                    "id": "u:2c150c64099e",
+                    "accept": ".jpeg, .jpg, .png, .gif",
+                    "multiple": true,
+                    "hideUploadButton": false,
+                    "receiver": {
+                      "url": "/filetool/UploadfileForAmis.html",
+                      "method": "post",
+                      "requestAdaptor": "",
+                      "adaptor": "",
+                      "messages": {},
+                      "dataType": "form-data",
+                      "data": {
+                        "&": "$$"
+                      }
+                    },
+                    "joinValues": true,
+                    "delimiter": ",",
+                    "maxLength": 10
+                  }
+                ],
+                "id": "u:536f8fe22be0"
+              },
+              {
+                "title": "软文提交（软文提交需要登录使用哦！）",
+                "body": [
+                  {
+                    "type": "input-text",
+                    "label": "",
+                    "name": "a_title",
+                    "id": "u:8a1cd7f72fb1",
+                    "maxLength": 30,
+                    "placeholder": "文章标题"
+                  },
+                  {
+                    "type": "input-rich-text",
+                    "label": "",
+                    "name": "content",
+                    "vendor": "tinymce",
+                    "id": "u:1d12774380b9",
+                    "options": {
+                      "plugins": "advlist,autolink,link,image,lists,charmap,preview,anchor,pagebreak,searchreplace,wordcount,visualblocks,visualchars,code,fullscreen,insertdatetime,media,nonbreaking,table,emoticons,template,help",
+                      "toolbar": "undo redo formatselect bold italic backcolor alignleft aligncenter alignright alignjustify bullist numlist outdent indent removeformat help",
+                      "menubar": true
+                    },
+                    
+                    "receiver": {
+                      "url": "/filetool/UploadfileForAmis.html",
+                      "method": "post",
+                      "requestAdaptor": "",
+                      "adaptor": "",
+                      "messages": {},
+                      "dataType": "form-data",
+                      "data": {
+                        "&": "$$"
+                      }
+                    }
+                  },
+                  {
+                    "type": "input-image",
+                    "label": "封面图",
+                    "name": "a_thumbnail",
+                    "autoUpload": true,
+                    "proxy": true,
+                    "uploadType": "fileReceptor",
+                    "imageClassName": "r w-full",
+                    "id": "u:6a69ba50ff5f",
+                    "accept": ".jpeg, .jpg, .png, .gif",
+                    "multiple": true,
+                    "hideUploadButton": false,
+                    "receiver": {
+                      "url": "/filetool/UploadfileForAmis.html",
+                      "method": "post",
+                      "requestAdaptor": "",
+                      "adaptor": "",
+                      "messages": {},
+                      "dataType": "form-data",
+                      "data": {
+                        "&": "$$"
+                      }
+                    }
+                  },
+                  {
+                    "type": "input-tag",
+                    "label": "",
+                    "name": "a_tags",
+                    "options": [],
+                    "id": "u:5badb93be470",
+                    "optionsTip": "输入标签，增加推荐曝光机会",
+                    "max": 10
+                  }
+                ],
+                "id": "u:d85f05da9c1c"
+              }
+            ],
+            "mountOnEnter": true,
+            "row": 0,
+            "id": "u:b5d13028bc30",
+            "onEvent": {
+              "change": {
+                "weight": 0,
+                "actions": [
+                  {
+                    "ignoreError": false,
+                    "outputVar": "responseResult",
+                    "actionType": "ajax",
+                    "options": {},
+                    "api": {
+                      "url": "/web/api/SubArticle.html?tabid=${event.data.value}",
+                      "method": "get"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "api": {
+          "url": "/web/api/SubAccount.html",
+          "method": "post",
+          "requestAdaptor": "",
+          "adaptor": "",
+          "messages": {},
+          "dataType": "json",
+          "data": {
+            "&": "$$"
+          }
+        },
+        "actions": [
+          {
+            "type": "button",
+            "label": "提交收录",
+            "onEvent": {
+              "click": {
+                "actions": [
+                  {
+                    "actionType": "submit",
+                    "componentId": "u:faf6f27d3915"
+                  }
+                ]
+              }
+            },
+            "level": "primary",
+            "id": "u:a36b52b5f123",
+            "block": true
+          }
+        ],
+        "resetAfterSubmit": true
+      }
+    ],
+    "id": "u:92c0cb953fc7",
+    "asideResizor": false,
+    "pullRefresh": {
+      "disabled": true
+    },
+    "regions": [
+      "body",
+      "header"
+    ]
+  }

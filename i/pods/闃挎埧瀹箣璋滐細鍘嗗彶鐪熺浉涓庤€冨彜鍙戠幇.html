@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楚汉争霸：阿房宫之谜</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f4e8;
+            color: #2c1e0f;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 253, 245, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(60, 45, 20, 0.1);
+            border: 1px solid rgba(255, 253, 245, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(60, 45, 20, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 253, 245, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .historical-bg {
+            background-image: linear-gradient(rgba(255,253,245,0.9), rgba(255,253,245,0.9)), url('https://s.coze.cn/image/CeXGd4IPkfg/');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 16px;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">楚汉争霸：阿房宫之谜</h1>
+            <p class="text-gray-600">到底谁烧了阿房宫？千古谜团待解</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="historical-bg mb-4" style="min-height: 200px;"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/27e281bfc08a426fa22fdcb6ef988712.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-amber-800"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到今天的播客，我们今天要聊一聊，阿房宫到底是怎么没的，然后就是。呃项羽到底有没有火烧阿房宫，这个事情到底是不是真的？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，听起来很有意思，那我们赶紧开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那咱们今天就来聊一聊啊这个阿房宫。这个被誉为天下第一宫的这个宫殿，它到底是怎么来的，它到底建没建成？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 阿房宫的修建其实是，公元前二一二年的时候秦始皇觉得咸阳的这个宫殿太小了然后他就决定要在渭水的南岸。上林苑中啊开始营造一座新的朝宫。但是这个阿房宫呢，在公元前二一零年秦始皇去世的时候呢，他就停工了，那些劳工呢都被拉去修骊山陵了。后来呢，秦二世又，公元前二零九年的时候又复工了。但是很快，公元前二零七年秦朝就灭亡了，所以这个阿房宫呢，就始终没有建成。史记里面也有说到，阿房宫未成，汉书里面也有说到，复起阿房未成而亡。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 就是说项羽到底有没有烧阿房宫这个事，其实，一直都，挺有争议的。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对因为很多人都说是项羽烧的嘛他就是源于史记里面的一句话说，烧秦宫室，火三月不灭。但是呢，史记里面其实并没有明确的说他烧的是阿房宫。然后包括，史记高祖本纪里面说他，屠烧咸阳秦宫室。其实这个秦宫室更有可能是咸阳宫。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 就是说阿房宫这个，废墟它现在的这个状态到底是怎么形成的呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 其实，从二零零二年到二零零七年的这个考古发掘来看呢，其实阿房宫它就没有建成。他只建了，前殿的这个夯土台基和部分的墙体，它的地面建筑其实是没有的。所以他的这个废墟的形成其实是，很多原因造成的。一方面是因为，秦末汉初的这个战乱。然后另一方面呢是因为，关中平原的这个风沙的侵蚀。还有一方面呢就是，后世的人们把它的这个建筑材料拿走了，等等等等，很多原因吧。对所以他就变成了现在这个样子。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 所以阿房宫的这个遗址，其实，承载了哪些，深远的历史意义和，启示呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 阿房宫其实它就像是，秦朝的一个命运的一个缩影。它没有建成其实就已经预示了秦朝的这个统治其实是，危机四伏的。然后它的这个传说和真实的考古之间的这个矛盾其实也在提醒我们。就是要，全面的去看待历史。就是既不能，忽略这些文献的记载但是同时呢，也要重视这些考古的证据。就是不能让我们的这个认知，被一些戏剧化的想象所，左右。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对今天我们聊了阿房宫的这个，未完成和它的毁灭。我们看到了历史和传说的交织。然后也看到了，考古的发现，怎么来重塑我们对过去的认知。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 以上就是这期播客的全部内容啦，然后咱们下期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-800 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>

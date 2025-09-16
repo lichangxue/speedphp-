@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英雄为何怕老乡 - 楚汉时期的人情世故</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e5;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .ancient-pattern {
+            background-image: url('https://s.coze.cn/image/TGIS0P_R0l0/');
+            background-size: cover;
+            background-position: center;
+            border: 2px solid #d2b48c;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">英雄为何怕老乡</h1>
+            <p class="text-gray-600">楚汉时期的人情世故与利益纠葛</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4 ancient-pattern"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/7ceb5aab65c04dc6a2a274d04e7e4c0a.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-amber-700"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听今天的播客，咱们今天聊一个有意思的话题啊，为什么？楚汉时期的那些英雄们都很怵自己的老乡，哈哈哈，这里边其实就涉及到了一些。人情世故啊一些利益的纠葛。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，这话题听着就挺有意思，那我们就直接开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 咱们就直接开始啊，就是说，楚汉时期的这些英雄们和他们的老乡之间到底有一些什么样，耐人寻味的故事呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是说在那个楚汉相争的这个大的背景下，其实有很多，英雄。他们的成败都跟老乡这层关系，有千丝万缕的联系，而且很有意思的是，这些老乡往往不是来帮你。反而是来给你添乱的，哈哈哈，就好像是命运给你开的一个玩笑一样。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎你说这个项羽，这么一个英雄豪杰，怎么就会被自己的老乡，折腾的这么惨呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就说这个项羽啊，他虽然在巨鹿之战，以少胜多，非常的厉害。但是他的这个老乡刘邦，就是非常了解他的这个性格，自视甚高嘛然后又刚愎自用。通过鸿门宴，加上项伯的这个搅和。就把这个唯一能够，干掉刘邦的这个机会给失去了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 韩信呢，也是他老乡啊，怎么最后，就成了他的，致命的克星呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对就是，韩信本来是在项羽手下的但是项羽，没有重用他。然后他就投靠了刘邦，最后就是在垓下之战。他就是用他对项羽的这个非常深刻的了解，十面埋伏四面楚歌。把项羽彻底的击败了，就是一个老乡对另一个老乡的，非常精准的打击。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎所以说就是英雄为什么会怕老乡呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 因为老乡之间就是太熟了，太熟了就是你，所有的弱点，你所有不光彩的过去。他都知道，就刘邦他早年在沛县那就是一个混混嘛，然后他那些老乡们都知道他那些糗事。他就很怕这些人，把这些东西抖出来，影响他的这个英雄的形象。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哦所以说，这个面子问题还真的是一个大问题啊！</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 可不仅仅是面子问题啊就是，老乡还会跟你有利益的纠葛啊，比如说项羽。他分封诸侯的时候。他没有办法一碗水端平，照顾到所有老乡的利益，结果就有很多人就起来反对他。然后刘邦这边虽然说他的那些沛县的老乡们，比如说萧何曹参这些人。跟他是出生入死的，但是，他们也会在一些事情上面跟刘邦有分歧。所以就是这个乡情啊，有的时候是一个。非常甜蜜的负担但是有的时候也是一个非常，复杂的，麻烦的来源。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 所以说就是，英雄为什么会怕老乡，其实怕的并不是老乡这个人，怕的是，背后这一堆，复杂的。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对就是，楚汉时期的这些英雄们他们其实在面对老乡的时候就是。一边是乡情的这种温暖，和支持。但是另外一边就是，利益的纠葛和权力的冲突，让他们很难去，抉择。然后一不小心就会，满盘皆输。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎呀今天咱们聊了这么多啊关于这个楚汉时期的这些英雄们和他们的老乡之间的这种。微妙的关系啊其实你说怕，不如说是一种。复杂的情感，和一种，很难去把握的平衡。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，OK 了以上就是这期播客的全部内容啦然后。感谢大家的收听咱们下期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>

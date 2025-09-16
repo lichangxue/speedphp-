@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项羽，你真是英雄吗？</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e5;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://s.coze.cn/image/sBGbqaK3c_k/');
+            background-size: cover;
+            background-position: center;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b0000;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            background-color: rgba(139, 0, 0, 0.08);
+            border-left: 5px solid #8b0000;
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+            border-radius: 0 8px 8px 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="hero-bg py-16 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">项羽，你真是英雄吗？</h1>
+            <p class="text-xl opacity-90">"力拔山兮气盖世"的悲剧英雄解析</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl -mt-12">
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/sBGbqaK3c_k/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/a3486936c1184ae5badf439c02c106d4.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-red-800"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到今天的播客，我们今天要聊一聊项羽，啊就是那个。力拔山兮气盖世的项羽啊，我们要聊一聊他到底算不算得上是一个英雄，嗯啊当然我们会。非常全面的啊从他的生平，从他的一些事迹，来给大家做一个分析。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，这确实是一个很有意思的话题，那我们就赶紧开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 我们就来聊一聊，项羽到底是不是一个英雄？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对项羽的这个形象一直都是一个悲剧英雄嘛，对他的这个垓下歌啊什么的就是。千百年来一直都是，非常打动人的对但是我们就是要通过他的一生的经历来看他到底能不能称得上是一个英雄。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 项羽的一生中，有哪些举动，让他无愧于英雄这个称号？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 首先就是他早年的时候，看到秦始皇巡游的时候他就说，彼可取而代之也。就这种，这种气魄就不是一般人有的。然后再就是他在巨鹿之战，以五万楚军，击败了四十万秦军。这是一个，以少胜多的一个非常经典的战役而且他是，破釜沉舟。嗯，就是让，将士们都，只带三天的口粮，以示决一死战。嗯，最后不光是解了巨鹿之围，而且让，各诸侯军都，归顺了他。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 项羽的性格中，有哪些因素，让他的英雄形象，蒙上了阴影？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 他的残忍嗜杀吧就是，他在巨鹿之战后。坑杀了二十万秦军降卒，嗯然后他进入关中之后又。屠咸阳，杀子婴，烧秦宫。这就跟刘邦的约法三章就形成了鲜明的对比，所以他就失去了民心。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 项羽的一生当中有哪些决策失误，让你觉得，他不太像是一个英雄？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是他在秦朝灭亡之后，他又走了分封制的这样的一个。老路子而且他封王，全都是凭自己的喜好。没有任何的战略眼光比如说，田荣他本来是有反秦的大功的。但是就因为他跟项羽有私怨，嗯，所以他就没有被封王。然后他就非常的气愤，他就第一个带头起来反抗项羽。包括彭越，他也没有去很好的安抚。彭越后来就成为了，在楚汉相争的时候项羽一个非常大的隐患。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 听起来这些失误好像都是，一步步把他往那个失败的深渊里面推啊。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对呀，包括他，不会用人，他连韩信这种不世出的军事天才他都没有办法用。然后让他跑到刘邦那边去了，包括黥布，他也是把黥布逼反了。就是他，很多这种，用人的，和战略上的这种短视让他最后就是。越来越没有办法，抵挡刘邦的这种攻势。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 鸿门宴上项羽放了刘邦，你觉得这是他，英雄气概的体现还是他的一个重大失误？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 这就是他的一个，很大的决策失误啊。就是他没有听范增的话把刘邦给杀了。然后他又，被项伯，就是这种。庇护刘邦又被樊哙这种。怒斥他又，就是很看重这种义气啊名誉啊什么的。他就没有看到刘邦其实是他未来最大的一个威胁，所以就导致了他最后。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 垓下之战项羽，乌江自刎，你觉得这是一种英雄的气节还是一种逃避？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得从他，不肯过江东这个事情上面看他确实是有一种。骨气，嗯，但是他这种选择其实也是非常的狭隘和固执的。他只想到了自己无颜见江东父老，他没有想到他其实如果过了江。他还是可以，凭借江东的，人力物力。再跟刘邦，一决高下的。所以他这个就，不光是让他自己，失去了机会也让，所有的。江东子弟对他的这种期望都破灭了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得我们应该用一个什么样的眼光去看项羽这样一个复杂的历史人物？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得项羽他肯定是一个，非常有传奇色彩的人物。他的那种，勇猛啊豪情啊确实让人很。热血沸腾，但是他的这种残暴他的这种政治上面的短视。他的这种，很多决策的错误让他也没有办法成为一个真正的，英雄。所以我觉得我们看他就应该。全面的去看他既看到他的这些闪光点但也要看到他的这些。阴暗面，这样的话我们才能够，从他的这个故事当中去吸取一些教训。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对今天我们聊了这么多啊从项羽的，豪情万丈聊到了他的，刚愎自用啊。聊到了他的这些，让人敬佩的地方也聊到了他这些让人叹息的地方。其实就是告诉大家，评价一个历史人物一定要全面，一定要客观。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 好了以上就是这期播客的全部内容啦然后。感谢大家的收听咱们下期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-red-800 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>

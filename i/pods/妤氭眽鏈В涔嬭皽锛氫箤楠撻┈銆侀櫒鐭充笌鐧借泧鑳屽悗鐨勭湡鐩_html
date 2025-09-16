@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楚汉三大未解之谜</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e9;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 253, 245, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 253, 245, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .title-text {
+            color: #8b4513;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold title-text mb-2">楚汉三大未解之谜</h1>
+            <p class="text-gray-600">揭开乌骓马自杀、天降陨石与刘邦斩白蛇的历史真相</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/g8aQc77_M0c/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/a3c334aa984544a09e7dfe5ad65ff2e1.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-amber-700"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到今天的播客，咱们今天聊一聊啊楚汉时期的三大未解之谜。啊，这三大未解之谜呢？乌骓马自杀，天降陨石，还有这个刘邦斩白蛇。背后可能隐藏的一些真实的原因。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 听起来很有意思，那我们就开始揭开这些谜团吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 啊，咱们先来聊一聊这个乌骓马啊，乌骓马呢是项羽的坐骑，对然后传说呢项羽乌江自刎之后呢乌骓马也。投江自尽了，嗯，这个事情是真的吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 这个事情呢就是，呃。怎么说吧从科学的角度来看的话动物的这种自杀行为啊嗯。其实往往都是一些，就是生理上的原因或者说是应激反应嗯。你比如说这个鲸鱼为什么会集体搁浅嗯那是因为他的回声定位系统出了问题嗯。那这个果蝇他为什么会在受到威胁的时候会炸开自己的身体嗯那是一种。呃保命的手段，那同样的这个乌骓马呢？他可能就是因为，长时间的这个战斗啊。已经非常的疲劳了然后再加上他可能晕船嗯。这个时候他又受到了这个项羽死的这个刺激嗯所以他就。栽下了船嗯，但是呢，呃人们更愿意相信的是他是自杀殉主。嗯，那这个其实就是反映了人们对于这种忠义的，一种。美好的向往，哦对，OK，所以就是说。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 这个陨石事件呢就是在秦始皇三十六年的时候呢有一颗陨石。坠落到了这个东郡，嗯然后上面刻着字说始皇帝死而地分。嗯，这个事情是真的吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 这个事情呢就是，呃。从科学的角度来看的话就是陨石他在经过大气层的时候会因为摩擦而燃烧。所以他掉下来的时候其实体积都不会很大嗯。但是呢这个陨石上面竟然可以刻七个字嗯，所以就有人怀疑说这个陨石可能根本就不是天上来的。而是有人，故意运到那里去的，哦对，然后再加上当时的这个秦朝的这个。苛政，已经让民不聊生了所以这个反秦的情绪已经是。在酝酿当中了所以这个事情呢很有可能就是反秦的势力。他们所制造的一个，政治谣言。哦，就是为了要传递出一个改朝换代的这样的一个信号。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 还有一个就是这个刘邦斩白蛇的这个故事啊嗯就是说这个刘邦呢他在。起义的初期啊，嗯，他把一条白蛇给斩了嗯然后后面就有人说这个白蛇是白帝之子嗯。刘邦是赤帝之子，嗯这个事情是真的吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 这个事情呢就是，呃。史记里面是有记载的嗯，但是很有可能也是刘邦的团队所策划的一个事情，就是为了要塑造刘邦的这种。神性，哦对，就是他的这个君权神授的这样的一个。感觉，因为你想他一个小小的亭长。嗯，他要跟那些。六国的贵族去抗争嗯他必须要给自己找一个比较，名正言顺的，出身。OK，所以他就制造了这样的一个故事，而且后面他不是，占领了沛县之后。他不是还专门把这个，祭祀的这个颜色都改成了红色吗？就是为了要应和这个赤帝之子的这个传说，哦对，就是为了要让老百姓更加的信服他。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 所以说就是这些，看起来非常神秘的这些故事啊其实背后。都有着一些人为的或者说时代的这样的一个背景，所以我们在读这些历史的时候。就是要去。抽丝剥茧啊，去发现这些，背后的一些动因啊，其实这也是读史的一个乐趣。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 好了以上呢就是这期播客的全部内容啦然后咱们下一期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>

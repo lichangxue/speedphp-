@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘邦：被误解两千年的英雄</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e5;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .title-banner {
+            background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="title-banner text-center">
+            <h1 class="text-3xl font-bold mb-2">刘邦：被误解两千年的英雄</h1>
+            <p class="text-xl">为汉高祖翻案 - 还原真实的历史形象</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/wJBeLox7I3Y/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/849467b572f94f778c8cbab9a5affd7c.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-amber-700"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听今天的播客，然后今天咱们这个内容啊，是要聊一聊。汉太祖高皇帝刘邦啊，这个被大家误会了两千年的男人，啊咱们要替他，翻案。啊，聊一聊他到底是一个什么样的人，他到底做了哪些事情，他到底是一个英雄豪杰，还是一个流氓无赖？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 哈哈，这个话题听起来就很有意思，那我们赶紧开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 我们今天啊，就先聊一聊大家对于刘邦最常见的一个误解，就是说刘邦是个流氓。这个说法到底靠不靠谱？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 其实说他是流氓我觉得就是一种误解，因为他虽然出生在农家然后。他爸也觉得他不怎么干活啊，就天天喜欢交朋友啊什么的。但是我觉得这只是他的一种，人生选择。他就是不愿意被，几亩薄田束缚住他的一生，他要去通过结交这些豪杰来增长自己的见识。和锻炼自己的一些能力，这完全不能说明他是一个流氓。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎那还有一个大家对于刘邦很常见的一个质疑就是说他这个人，好酒及色。啊，这个事情，跟他的这个英雄豪杰的形象是不是有点矛盾？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 他确实是喜欢酒和喜欢美女，但是他在关键的时候是能够，克制住自己的欲望的。你比如说他进了咸阳之后，他本来也是想住在秦宫里好好的享受一番的。但是在樊哙和张良的劝说之下他还是把秦宫给封存了然后还军霸上。跟百姓约法三章，所以他赢得了民心。这才是一个，成就大事的人应有的一个定力和胸怀。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎还有一个对于刘邦的常见的指责就是说他不尊重知识分子，你怎么看这个？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 他其实并不是不尊重知识分子他只是讨厌那些，只会说空话的腐儒。你比如说这个郦食其，他去见他的时候他一开始也是很轻慢的但是当他发现这个人有真才实学之后他马上就。起身相迎，而且封他为广野君。然后包括像张良这种，大才他更是，言听计从。所以他身边其实有很多这种，文人谋士都愿意为他所用。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎还有一个对于刘邦的比较常见的批评就是说他这个人好像，不讲亲情。你比如说他在这个逃命的时候把自己的孩子推下车，然后包括他说什么分我一杯羹这种话，你觉得这个，怎么解释？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得这就是他的一种，在那种生死攸关的时候的一种，权衡。因为他知道他自己肩负着，推翻暴秦拯救天下苍生的这样一个重任。所以他不得不在这种，危急的时刻放弃一些，私情。而且他后来，对自己的子女和父亲也都是很关爱的所以我觉得这只是他的一种。为了顾全大局的一种取舍。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎还有一个对于刘邦的指责就是说他大杀功臣，你觉得这个，怎么说？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 其实他杀的，都是那些，确实有威胁的人。你比如说韩信彭越英布他们这些人都是，手里握有重兵然后又，有一些谋反的迹象的。他其实也是为了，汉朝的稳定和百姓的安宁。而且他其实封的功臣，大部分也都是得以善终的所以我觉得他并不是一个，滥杀无辜的人。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎还有一个对于刘邦的质疑就是说他好像没什么文化，甚至有反智的倾向你怎么看这个？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 他确实小的时候没有受过什么系统的教育但是他还是学过一些文化的。而且他其实非常清楚知识的重要性你比如说他在汉朝建立之后也是。广纳贤才然后，鼓励文化的发展包括他的那个。给太子的遗训里面他还说他自己很后悔当时没有好好的读书。所以我觉得他绝对不是一个反智的人。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那你觉得刘邦他的一生，到底是一个，什么样的人？他的核心的评价应该是什么？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得他就是一个，从布衣百姓起家然后。带领着一帮人，推翻了暴秦又结束了，多年的战乱。让百姓能够重新过上，安稳的生活他也有很多政策。促进了经济和文化的发展。包括我们汉族这个名字也是因为汉朝而得名所以我觉得他对于我们整个民族的发展。和中国的统一都是做出了，非常巨大的贡献的所以我觉得他绝对是一个英雄豪杰。而且是一个，推动了历史前进的，非常重要的人物。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对我觉得今天咱们聊下来就发现其实刘邦啊他远不是一个。简单的流氓的形象可以概括的他其实是一个。有抱负，有谋略，有担当的，英雄豪杰。而且他对于我们整个民族和国家的发展是做出了，难以磨灭的贡献的。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> OK 了以上就是这期播客的全部内容啦，然后咱们下一期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>

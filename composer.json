@@ -1,0 +1,9 @@
+{
+    "require": {
+        "firebase/php-jwt": "^6.4",
+        "alibabacloud/dysmsapi-20170525": "^2.0",
+        "phpmailer/phpmailer": "^6.9",
+        "erusev/parsedown": "^1.7"
+        
+    }
+}

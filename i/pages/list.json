@@ -1,0 +1,81 @@
+{
+    "type": "crud",
+    "syncLocation": false,
+    "api": {
+      "method": "post",
+      "url": "/web/api/GetList.html",
+      "messages": {},
+      "requestAdaptor": "",
+      "adaptor": "",
+      "dataType": "form",
+      "data": {
+        "&": "$$",
+        "ct":"${ct}",
+        "cid":"${cid}"
+      }
+    },
+    "card": {      
+      "body": [
+        {
+          "type": "image",
+          "name": "thumbnail",
+          "id": "u:07e2697daf95"
+        }
+      ],      
+      "actions": [
+        {
+            "type": "button",
+            "label": "${title}",
+            "onEvent": {
+              "click": {
+                "actions": [
+                  {
+                    "ignoreError": false,
+                    "actionType": "url",
+                    "args": {
+                      "blank": true,
+                      "url": "/main/Details.html?id=${id}"
+                    }
+                  }
+                ]
+              }
+            },
+            "id": "u:2a09986a84ad"
+        }
+      ],
+      "bodyClassName": "padder",
+      "id": "u:7344ac8d727d"
+    },
+    "mode": "cards",
+    "placeholder": "哎呀，没有啊，我要尽快补货啦！",
+    "defaultParams": {
+      "perPage": 6
+    },
+    "switchPerPage": false,
+    "columnsCount": 7,
+    "id": "u:5627940c49ad",
+    "bulkActions": [],
+    "itemActions": [],
+    "perPageAvailable": [
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "messages": {},
+    "columns": [
+      {
+        "name": "title",
+        "label": "标题",
+        "type": "text",
+        "id": "u:2b6507995600"
+      },
+      {
+        "type": "text",
+        "name": "thumbnail",
+        "label": "缩略图",
+        "id": "u:74757924df3d"
+      }
+    ]
+  }

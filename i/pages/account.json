@@ -1,0 +1,406 @@
+{
+    "type": "page",
+    "title": "",
+    "body": [
+      {
+        "type": "anchor-nav",
+        "links": [
+          {
+            "title": "个人资料",
+            "href": "1",
+            "body": [
+              {
+                "type": "service",
+                "body": [
+                  {
+                    "type": "property",
+                    "title": "个人信息",
+                    "items": [
+                      {
+                        "label": "昵称",
+                        "content": "${nickName}",
+                        "span": 1
+                      },
+                      {
+                        "label": "注册时间",
+                        "content": "${reg_time}",
+                        "span": 1
+                      },
+                      {
+                        "label": "头像",
+                        "content": [
+                            {
+                                "type": "avatar",
+                                "src":"${avatar_file}",
+                                "id": "u:eae6b32a1943",
+                                "style": {
+                                  "width": 80,
+                                  "height": 80,
+                                  "borderRadius": 40,
+                                  "fontFamily": "",
+                                  "fontSize": 12
+                                },
+                                "showtype": "text",
+                                "icon": "",
+                                "fit": "cover",
+                                "gap": 4
+                            }
+                        ],
+                        "span": 1
+                      },
+                      {
+                        "label": "我的积分",
+                        "content": "${blance}",
+                        "span": 2
+                      }
+                    ],
+                    "id": "u:e4c6cb77eb42",
+                    "column": 2,
+                    "mode": "table"
+                  }
+                ],
+                "id": "u:b52593189bf0",
+                "dsType": "api",
+                "api": {
+                  "url": "/web/api/getUser.html",
+                  "method": "get",
+                  "requestAdaptor": "",
+                  "adaptor": "",
+                  "messages": {}
+                },
+                "initFetchSchema": false
+              }
+            ],
+            "id": "u:85a076c52378"
+          },
+          {
+            "title": "我的梅子",
+            "href": "2",
+            "body": [
+              {
+                "type": "crud",
+                "syncLocation": false,
+                "api": {
+                  "method": "post",
+                  "url": "/web/api/GetMyAccount.html",
+                  "requestAdaptor": "",
+                  "adaptor": "",
+                  "messages": {},
+                  "dataType": "form",
+                  "data": {
+                    "&": "$$"
+                  }
+                },
+                "bulkActions": [],
+                "itemActions": [],
+                "columns": [
+                  {
+                    "name": "id",
+                    "label": "ID",
+                    "type": "text",
+                    "id": "u:5a8c16de7f15"
+                  },
+                  {
+                    "name": "title",
+                    "label": "标题",
+                    "type": "text",
+                    "id": "u:fa0efd3c48a2"
+                  },
+                  {
+                    "type": "image",
+                    "label": "封面",
+                    "name": "thumbnail",
+                    "id": "u:9241ba2756f4"
+                  },
+                  {
+                    "type": "text",
+                    "label": "类型",
+                    "name": "content_type",
+                    "id": "u:85223a207142"
+                  },
+                  {
+                    "type": "text",
+                    "name": "views",
+                    "label": "曝光次数",
+                    "id": "u:aab785efcf58"
+                  },
+                  {
+                    "type": "operation",
+                    "label": "操作",
+                    "buttons": [
+                      {
+                        "type": "button",
+                        "label": "删除",
+                        "actionType": "ajax",
+                        "level": "link",
+                        "className": "text-danger",
+                        "confirmText": "确定要删除？",
+                        "api": {
+                          "method": "post",
+                          "url": "/web/api/GetMyAccount.html",
+                          "requestAdaptor": "",
+                          "adaptor": "",
+                          "messages": {},
+                          "dataType": "form",
+                          "data": {
+                            "&": "$$"
+                          }
+                        },
+                        "editorSetting": {
+                          "behavior": "delete"
+                        },
+                        "id": "u:6257ed3dd704"
+                      },
+                      {
+                        "label": "编辑",
+                        "type": "button",
+                        "actionType": "dialog",
+                        "level": "link",
+                        "editorSetting": {
+                          "behavior": "update"
+                        },
+                        "dialog": {
+                          "title": "编辑",
+                          "body": {
+                            "type": "form",
+                            "api": "",
+                            "initApi": "",
+                            "body": [
+                              {
+                                "name": "id",
+                                "label": "ID",
+                                "type": "input-text"
+                              },
+                              {
+                                "name": "title",
+                                "label": "标题",
+                                "type": "input-text"
+                              },
+                              {
+                                "label": "封面",
+                                "name": "thumbnail",
+                                "type": "input-image"
+                              },
+                              {
+                                "label": "类型",
+                                "name": "content_type",
+                                "type": "input-text"
+                              },
+                              {
+                                "name": "views",
+                                "label": "曝光次数",
+                                "type": "input-text"
+                              }
+                            ]
+                          }
+                        },
+                        "id": "u:89e5d8ea53af"
+                      }
+                    ],
+                    "id": "u:71e53177db56"
+                  }
+                ],
+                "id": "u:12feb570db33",
+                "perPageAvailable": [
+                  5,
+                  10,
+                  20,
+                  50,
+                  100
+                ],
+                "messages": {}
+              }
+            ],
+            "id": "u:b1a7a05887aa"
+          },
+          {
+            "title": "站内信",
+            "href": "4",
+            "body": [
+              {
+                "type": "crud",
+                "syncLocation": false,
+                "api": {
+                  "method": "post",
+                  "url": "/web/api/getmsg.html",
+                  "requestAdaptor": "",
+                  "adaptor": "",
+                  "messages": {},
+                  "data": {
+                    "&": "$$"
+                  }
+                },
+                "bulkActions": [],
+                "itemActions": [],
+                "columns": [
+                  {
+                    "name": "title",
+                    "label": "标题",
+                    "type": "text",
+                    "id": "u:63fa20f8eae8"
+                  },
+                  {
+                    "type": "text",
+                    "label": "内容",
+                    "name": "body",
+                    "id": "u:e1c9b510c1dc"
+                  },
+                  {
+                    "type": "text",
+                    "label": "发送者",
+                    "name": "send",
+                    "id": "u:6ed6e8c7a9cb"
+                  },
+                  {
+                    "type": "text",
+                    "label": "发送时间",
+                    "name": "sendDate",
+                    "id": "u:5e27e5ddc823"
+                  }
+                ],
+                "id": "u:392de48d65eb",
+                "perPageAvailable": [
+                  5,
+                  10,
+                  20,
+                  50,
+                  100
+                ],
+                "messages": {}
+              }
+            ],
+            "id": "u:d9d17c9d1827"
+          },
+          {
+            "title": "充值记录",
+            "href": "3",
+            "id": "u:657d43998393",
+            "body": [
+              {
+                "type": "crud",
+                "syncLocation": false,
+                "api": {
+                  "method": "post",
+                  "url": "/web/api/recrecords.html",
+                  "requestAdaptor": "",
+                  "adaptor": "",
+                  "messages": {},
+                  "dataType": "form",
+                  "data": {
+                    "&": "$$"
+                  }
+                },
+                "bulkActions": [],
+                "itemActions": [],
+                "columns": [
+                  {
+                    "name": "id",
+                    "label": "ID",
+                    "type": "text",
+                    "id": "u:990568cf48db"
+                  },
+                  {
+                    "name": "recType",
+                    "label": "类型",
+                    "type": "mapping",
+                    "id": "u:c489e64a154d"
+                  },
+                  {
+                    "type": "text",
+                    "label": "金额",
+                    "name": "recAmount",
+                    "id": "u:bb825514c3ab"
+                  },
+                  {
+                    "type": "text",
+                    "label": "时间",
+                    "name": "recCreate",
+                    "id": "u:b47216e94c06"
+                  }
+                ],
+                "id": "u:ffa0fc48df98",
+                "perPageAvailable": [
+                  5,
+                  10,
+                  20,
+                  50,
+                  100
+                ],
+                "messages": {}
+              }
+            ]
+          },
+          {
+            "title": "消费记录",
+            "href": "5",
+            "body": [
+              {
+                "type": "crud",
+                "syncLocation": false,
+                "api": {
+                  "method": "post",
+                  "url": "/web/api/consumeRecords.html",
+                  "requestAdaptor": "",
+                  "adaptor": "",
+                  "messages": {},
+                  "dataType": "form",
+                  "data": {
+                    "&": "$$"
+                  }
+                },
+                "bulkActions": [],
+                "itemActions": [],
+                "columns": [
+                  {
+                    "name": "id",
+                    "label": "ID",
+                    "type": "text",
+                    "id": "u:556b331e99c0"
+                  },
+                  {
+                    "name": "consumeType",
+                    "label": "消费类型",
+                    "type": "mapping",
+                    "id": "u:e2d92ceb161f"
+                  },
+                  {
+                    "type": "text",
+                    "label": "消费金额",
+                    "name": "consumeTuibi",
+                    "id": "u:810d02e21628"
+                  },
+                  {
+                    "type": "text",
+                    "label": "消费时间",
+                    "name": "consumeCreate",
+                    "id": "u:6fcf6010e4a9"
+                  }
+                ],
+                "id": "u:3aedec99925a",
+                "perPageAvailable": [
+                  5,
+                  10,
+                  20,
+                  50,
+                  100
+                ],
+                "messages": {}
+              }
+            ],
+            "id": "u:e9dcc96e5d39"
+          }
+        ],
+        "id": "u:1bb2e55e55e6",
+        "active": "1",
+        "direction": "vertical"
+      }
+    ],
+    "id": "u:92c0cb953fc7",
+    "asideResizor": false,
+    "pullRefresh": {
+      "disabled": true
+    },
+    "regions": [
+      "body"
+    ]
+  }

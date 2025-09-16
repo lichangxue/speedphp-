@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李斯：都是老鼠惹的祸</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f4e6;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 253, 245, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b5a2b;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 90, 43, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #6b4226;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(107, 66, 38, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 253, 245, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .ancient-style {
+            font-family: 'Noto Serif SC', serif;
+            color: #5c3a21;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold ancient-style mb-2">李斯：都是老鼠惹的祸</h1>
+            <p class="text-gray-600">从厕所老鼠到帝国丞相的传奇人生</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/nC6D-G-_8uQ/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/f467168fa75d4d748df82ad035be6ec5.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center ancient-style">
+                <i class="fas fa-scroll mr-2 text-amber-700"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听今天的播客，我们今天来聊一聊秦朝的丞相李斯。啊，这个人呢其实他的一生啊真的是非常的传奇啊，而且非常的戏剧化。啊，他的一生呢几乎可以用老鼠来贯穿。啊，就是他的成功和失败都跟老鼠有关。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 哦，听起来很有意思哎，那我们就赶紧来聊一聊他的故事吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那第一个问题就来了，李斯为什么会辞去自己的铁饭碗，然后去拜师学艺呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是因为他看到了，厕所里面的老鼠。吃的都是脏东西然后又很害怕人，但是他在粮仓里面看到的老鼠。吃的是好的粮食也不用担心人，所以他觉得。一个人有没有出息是跟他所处的环境有关系的，所以他就想说我要改变自己的命运。我要去拜荀子为师，学习帝王之术。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 李斯为什么最后选择了去秦国发展，他又是怎么在秦国出人头地的呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 因为当时，秦国是最有实力的他想要统一天下，所以他觉得秦国是最有可能让他施展才华的地方。然后他就去了秦国之后呢他就先投靠了吕不韦。吕不韦也很赏识他，就把他推荐到了，秦王嬴政的身边做了郎官。他就有机会，跟秦王嬴政建言。他的才华就显露出来了就被秦王嬴政，提拔为了客卿。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 李斯在秦国，即将被驱逐的时候他是怎么扭转这个局面的，后来他又为秦国立下了哪些汗马功劳呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 当时秦国的贵族们就是说要把所有别的国家来的客卿都赶走嘛。然后李斯就写了非常著名的谏逐客书，他在这个谏逐客书里面就说。以前的秦穆公，秦孝公，秦惠王，秦昭襄王都是因为用了别的国家的人而称霸的。所以他说如果你现在把我们这些客卿都赶走了那就是在削弱自己而帮助敌人。嬴政看了之后就觉得很有道理就撤销了这个逐客令，李斯就被。提拔为了廷尉，后来他又帮助嬴政。统一了六国，他也是，废分封立郡县。统一货币统一度量衡统一文字这些，影响非常深远的改革的，推动者。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那李斯为什么会同意跟赵高一起篡改遗诏呢，这又给他带来了什么样的后果呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是因为赵高去游说他的时候就跟他说如果扶苏继位的话那么肯定就是蒙恬当丞相。那你李斯就没有什么好下场了，然后李斯就是一直都想要。保住自己的荣华富贵他不想，重新回到他以前那种底层的生活。所以他就，被赵高说服了一起篡改了遗诏扶持胡亥继位。但是后来就是赵高又在胡亥面前说他的坏话。说他的儿子李由跟起义军有勾结，最后就把李斯，抓起来了。受尽了折磨，最后被腰斩，灭了三族。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得李斯的一生，给我们带来什么启示呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是他从一个，上蔡的小吏。然后最终成为了大秦的丞相。他的这一生是非常传奇的，但是他也是因为，对权力的这种贪恋。让他在关键的时候做出了错误的决定。所以我觉得就是，他的故事告诉我们就是你可以去追求成功。但是你不能被你的欲望，冲昏了头脑，不然的话你就会像他一样。落得一个，非常悲惨的下场。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 嗯好吧，今天我们聊了李斯的一生啊从他。见鼠而叹，然后到最终。成为大秦的丞相，最后又因为权力而走向了毁灭。啊，确实他的一生真的是跌宕起伏啊，也给我们带来很多思考。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> OK 了以上就是这期播客的全部内容啦，然后咱们下期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>

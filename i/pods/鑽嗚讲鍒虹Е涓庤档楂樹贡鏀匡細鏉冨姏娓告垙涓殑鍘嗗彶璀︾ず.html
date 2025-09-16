@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>荆轲易躲，赵高难防 - 战国末年的权力博弈</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e5;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 253, 245, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(58, 50, 38, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(58, 50, 38, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 253, 245, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            background-color: rgba(139, 69, 19, 0.08);
+            border-left: 5px solid #8b4513;
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+            border-radius: 0 8px 8px 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .ancient-pattern {
+            background-image: url('https://s.coze.cn/image/S3h7bz5xL18/');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">荆轲易躲，赵高难防</h1>
+            <p class="text-gray-600">战国末年的权力博弈与历史警示</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4 ancient-pattern"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/ef3cb6b03d224def9d6133c69a0e666c.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-amber-700"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听我们的播客，今天咱们要聊一聊，战国末年，荆轲刺秦背后那些不为人知的故事，以及赵高这个人物。是如何在，权力的游戏当中，把秦国推向万丈深渊的。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 听起来很有意思，那我们赶紧开始吧，看看这段历史到底藏着什么警示。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 咱们今天第一个问题啊咱们先来聊一聊，荆轲刺秦这个事件到底是在一个什么样的背景下发生的，然后他这个行动具体是怎么展开的？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 这个事情发生在战国末年啊，就是秦国已经非常非常强大了对其他六国已经形成了压倒性的优势。然后这个时候，燕国的太子丹啊，他就，为了挽救自己的国家。就策划了，荆轲刺秦这个行动。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哦，原来这是一个，燕国的生死存亡之际的一个豪赌啊！</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对，然后呢，荆轲他就是带着，燕国督亢的地图。和樊於期的首级啊作为献礼，去了秦国的宫廷，他在这个咸阳宫。就当着秦王嬴政的面，展开了这个地图啊图穷匕见。就拿着这个匕首去刺秦王但是没有成功啊，就是一场非常。紧张刺激的这个，生死搏斗啊在朝堂上面。也留下了，这个非常，悲壮的一个历史瞬间。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 赵高在这个，荆轲刺秦的这个事件当中到底是扮演了一个什么样的角色？然后他又是凭什么，后来能够在秦国的权力结构当中，迅速的崛起呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 赵高他其实就是一个，出身非常卑微的人啊他就是一个小吏。然后但是他这个人呢就是很会，察言观色很会。见机行事啊，他就是在这个荆轲刺秦的这个非常关键的时刻。他就，提醒了这个秦王啊就是让他把这个剑背到后面从背后拔出来啊，才反败为胜。就把荆轲给杀了，他也就是因为这样的一个表现。得到了秦始皇的，注意啊就开始。平步青云。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得荆轲刺秦没有成功，背后有哪些比较深层次的原因呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得一方面是荆轲他自己其实。剑术也没有那么高超，就他之前。跟盖聂，还有这个鲁句践他们这些真正的剑客，有过交集然后都。不是很愉快啊人家都不是很瞧得起他的剑术。另外一个就是他在等一个，帮手，但是因为燕太子丹。催他催的太急了所以他就没有等到那个，很得力的帮手，就带着这个秦舞阳就去了。秦舞阳这个人呢就是，一到这个秦王的宫殿下面就被人家这个。气势给震慑住了啊就已经几乎要露馅了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 赵高在秦始皇去世之后他到底做了哪些事情？然后是怎么把整个秦国的局势搅得天翻地覆的呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 他就是在秦始皇病逝之后啊他就。联合了李斯，然后篡改了遗诏。逼死了扶苏，立了胡亥为帝。他就开始，独揽大权，排除异己，甚至，指鹿为马。把整个朝堂搞得乌烟瘴气，也让这个秦国的这个统治，迅速的走向了腐败和混乱。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 荆轲和赵高这两个人，你觉得他们对于秦国的命运，分别带来了什么样的影响？然后又给我们带来了什么样的警示？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 荆轲的这个刺秦啊虽然他，非常的勇敢然后也让后人非常的敬佩。但是他其实，并没有，改变秦国统一的这个大局。但是赵高呢，他是一个，阴谋家，他就是在权力的中心。一点点的把这个秦国的这个根基给侵蚀掉了。所以他其实是直接导致了秦国的灭亡，所以这就是说明。真正的危机，可能并不是来自于，外面的这种很明显的挑战。而是来自于，内部的，这种奸佞的，小人。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 行吧今天咱们聊了这个荆轲刺秦的，悲壮，然后也聊了这个赵高乱秦的，阴狠。我们看到了在权力和命运的交错当中，人性的复杂和教训，是如此的发人深省。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，OK 了那么以上就是这期播客的全部内容啦，然后咱们下期再见吧，拜拜拜拜。</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>

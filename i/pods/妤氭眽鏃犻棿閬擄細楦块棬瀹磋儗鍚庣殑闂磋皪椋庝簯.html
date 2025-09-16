@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楚汉无间道:权力棋局中的暗潮涌动</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f5f0e6;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 253, 245, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 253, 245, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            background-color: rgba(139, 69, 19, 0.08);
+            border-left: 5px solid #8b4513;
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+            border-radius: 0 8px 8px 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .title-font {
+            font-family: 'Noto Serif SC', serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2 title-font">楚汉无间道:权力棋局中的暗潮涌动</h1>
+            <p class="text-gray-600">揭秘楚汉相争中那些改变历史走向的间谍故事</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/eaHj9ekc5CE/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/e48bd01ae03e4c6b965806743cd63b93.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-amber-700"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听，我们这一期播客啊，然后咱们今天继续啊咱们这个楚汉系列啊咱们今天要聊一聊啊，楚汉相争当中那些，隐藏在幕后的。间谍故事，啊，这个权谋啊这个人性啊。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 听起来就很精彩，那我们赶紧开始吧，赶紧开始我们一起来感受一下历史的这个暗潮涌动。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎，咱们第一个要聊的呢就是这个鸿门宴啊。这个鸿门宴呢其实大家可能关心的就是说这个刘邦，到底是怎么在，这么危险的一个处境下。全身而退的啊。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 这个故事就要从这个曹无伤说起啊就是他当时是刘邦的一个左司马。然后他就偷偷的派人去跟项羽说就是刘邦想要在关中称王。这个项羽当时就非常的生气啊因为他的兵力是远远胜过刘邦的嘛，他当时就四十万。刘邦只有十万，所以他就很生气说我明天就要把刘邦给灭了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 所以这个时候其实刘邦已经，命悬一线了。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对啊，但是这个时候呢，项伯，就是项羽的叔叔。他因为跟张良有旧嘛他就不想让张良死，所以他就夜驰之沛公军。就是他就晚上骑着马到刘邦的军营里面去。想要把张良带走，然后这个时候呢，张良当然就很够意思啊他就把这个项伯的这个。警告就告诉了刘邦，刘邦呢就。用了非常谦卑的态度啊又是跟他约为婚姻啊就是说。呃希望项伯能够帮他在项羽面前说一些好话，项伯就答应了。而且还让刘邦第二天一定要早一点来亲自跟项羽谢罪。项伯回去之后也是跟项羽说刘邦的好话，项羽就答应了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对所以这个刘邦第二天就带着樊哙啊带着张良啊就来到了这个鸿门啊。然后这个项羽其实这个时候，已经是，刀斧手都已经安排好了就等这个项羽。一个眼色刘邦就死无葬身之地了，但是为什么最后刘邦还是逃出生天了呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是刘邦他就非常非常的谦卑啊然后他就跟项羽说。说我本来就是，先入关我就是替将军守着这个地方。等将军来，我怎么敢有二心呢就把项羽就，说的这个。心就软了，项羽甚至还说出了这个。就是曹无伤跟他说的这个话就把自己的这个线人给。供出来了，后面就是范增，他是非常想让项羽杀刘邦的他就，好几次暗示项羽。但是项羽都，没有反应，他就出去找来了项庄。让项庄进去以舞剑为理由想要趁机把刘邦杀掉，但是这个时候项伯又出来了。就是他也拔剑起舞就用自己的身体来护住刘邦，让项庄没有办法下手。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对，所以说这个鸿门宴这个饭局啊真的是。步步惊心呐，你觉得刘邦能够全身而退的最关键的点是什么？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得就是他的态度吧就是他非常非常的谦卑然后。让项羽觉得好像他没有威胁，再加上项伯的这种保护，再加上项羽本身他对于。杀刘邦这件事情他是，迟疑的。他不是一个很果决的人，他没有，狠下心来。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对所以这个，陈平的这个反间计啊到底是怎么操作的最后让这个楚营，就。分崩离析了呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是当时是楚汉相争嘛然后，刘邦他就是采用了陈平的这个计策就是。他给了陈平，四万斤黄金。让他去，就是在楚营里面去买通一些间谍去散布一些谣言。说什么钟离昧啊这些人他们觉得自己。功劳很大但是却没有得到封地他们想要跟刘邦联合起来把项羽的地盘给分了，项羽这个人他本身就是一个。猜疑心很重的人他听到这些谣言之后他就真的开始。不信任钟离昧他们了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 看来这个谣言的力量确实是很厉害。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对啊然后他这个计策还不止如此啊就是他还要对付范增。他就，等到项羽的使者来的时候。他就先是以非常丰盛的宴席来招待这个使者他假装很惊讶说我以为你是范增的使者。就把这个宴席又撤下去了换成了非常粗劣的食物。这个使者回去当然就跟项羽报告了项羽就果然对范增也开始。不信任了，范增他还不知道啊他还在。劝项羽要赶紧攻打荥阳，项羽就不听他的，范增就很生气他就说。那我就告老还乡吧，他在回去的路上就。因为背疽发作就死了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对，所以这个项伯啊作为项羽的亲叔叔。他为什么要三番两次的去帮刘邦呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 这个就是有很多说法了啊就是有人认为说。他是因为跟张良的关系好所以他就。呃泄露了这个项羽要攻击刘邦的这个消息。然后后面他又在鸿门宴上面保护刘邦。包括后面他还帮刘邦说情让刘邦能够得到汉中这个地方。还有包括他在这个广武对峙的时候。也劝项羽不要杀刘邦的父亲，就是他好像一系列的行为都是在。削弱项羽的力量，所以有人说他是一个，就是彻底的楚奸。就是他就是在，背叛自己的家族。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 所以他到底是怎么想的是真的是为了一己私利吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 也有人认为说他可能是觉得。项羽这个人刚愎自用然后又很残暴他觉得刘邦可能是一个。能够得民心的人他可能是为了天下苍生考虑。也有人认为说他可能是已经看到了这个局势的发展他觉得。呃刘邦会胜利所以他就提前在给自己和自己的家族。谋一条后路，就是他可能是有一些。更深层次的战略的考虑，当然这一切都只是猜测了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对，所以你觉得这个，楚汉相争当中这些，无间道的故事。对于整个历史的走向，到底有多大的影响？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得就是这些故事其实让我们看到了人性在权力面前的复杂。就是无论是项伯他的这种。选择还是陈平的这种计策他们都彻底的改变了楚汉相争的这个。局势，甚至可以说改变了中国历史的走向。就是他们都是一个，蝴蝶效应的一个。起点，就是他们的一个很小的决定最后就导致了。整个，历史的巨轮，转向了另外一个方向。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对，所以今天我们聊了这个楚汉相争当中这些精彩的无间道的故事啊。从这个鸿门宴的这种。惊心动魄，到这个陈平的反间计的这种。环环相扣，再到这个项伯的这个。复杂的角色，其实我们看到的不仅仅是历史，其实我们看到的是人性和权力的。这种纠缠，对所以这也是为什么这些故事啊，能够。流传千古并且给我们带来这么多的思考。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> OK 了以上就是这期播客的全部内容啦，然后咱们下期再见拜拜。</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>

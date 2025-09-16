@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>韩信传说:因违背道德折寿的名将</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f4e8;
+            color: #2c1e0f;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .title-text {
+            color: #8b4513;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold title-text mb-2">韩信传说:因违背道德折寿的名将</h1>
+            <p class="text-gray-600">民间故事中韩信早逝的缘由与历史反思</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/ypvVwW_6VwI/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/278ae2e6600645b7abba8f7e09c0e457.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-amber-700"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听今天的播客，今天咱们来聊一聊，这个民间故事里面啊。这个韩信，为什么？本来应该很长寿的他为什么会早死？以及他的那些，非常厉害的军事才能，和他建立汉朝的这些，伟大的功绩。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，这个话题还挺有意思的，那我们就直接开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 咱们就直接开始啊直接开始咱们就来聊一聊这个。韩信，到底是，民间传说里面他到底是做了什么事情导致他本来应该很长的寿命被折损了。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 是说他，年少的时候家里非常的贫困，然后有一次他在山上放牛的时候呢，睡着了。他就，梦到了两个神仙在聊天嗯，说这个地方是一个风水宝地。如果说谁能够把自己的先人埋在这个地方的话，那他的后代一定会出，王爷。他就醒了之后他就，把这个事情，记在了心里。他就，回家之后呢就偷偷的把他的，妈妈的头发。和指甲，都剪下来了，用这个东西呢就代表了他的妈妈的，精气神嘛。就把它埋在了这个风水宝地里。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 啊这是个让人，让人挺挺惊讶的一个决定啊。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对呀就他就，就做了这个事情，然后后来他就。就飞黄腾达了嘛就成为了这个，汉军里面非常重要的一个大将。也立下了很多很多的战功。但是就是因为他用了这样一种非常极端的方式来改变自己的命运。所以说他就受到了这个折寿的这样的一个惩罚。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那除了这个活埋生母这个传说之外还有哪些传说讲到他折寿的事情？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 还有几个嘛就是说，嗯他有一次就是迷路了然后有一个樵夫给他指路。他怕这个樵夫会泄露他的行踪就把这个樵夫给杀了，嗯这个也是被认为是他。恩将仇报嘛就折了他的阳寿。还有就是说他，九里山设十面埋伏。这个杀了很多的人，这个百万楚兵都，丧命了逼得项羽也乌江自刎。这个也是被认为是，伤天害理所以就折了他的阳寿。还有一个就是说，刘邦被项羽围困的时候。他，乘机就是要刘邦封他为假齐王。就是有一点，逼主的这个嫌疑所以就也是减了他的阳寿。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 就是说韩信在民间传说里面就是因为这些事情导致他折寿那他最后是一个什么样的结局？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对他就是因为这些，呃违背人伦道德的事情啊每一件都给他折了，好几年的寿命。所以他最后就是只活了三十多岁就，惨死于这个未央宫。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎呀真的是让人感叹呐！那就是说，正史里面有没有对这些事情的记载呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 正史里面是没有的，就是正史上其实，没有这些，折寿的这些。传说的，嗯他只是说他在政治上面不是很成熟。然后但是他的军事才能还是非常厉害的为汉朝的建立也是立下了，不世之功。他的这些故事和传说一直在民间。就是流传就变成了一种，人们对于历史对于人性的一种。反思吧。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对行吧那今天咱们就是聊了这个关于韩信的这些民间传说啊从这个活埋生母。到这个，恩将仇报，再到这个，九里山的这个十面埋伏。以及他这个，逼主封王啊等等这些事情啊都是让我们看到了一个，非常复杂的历史人物。同时也让我们对于这些传说背后所反映的一些。道德啊人性啊以及。历史和传说之间的一些关系啊有了一些思考。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> OK 了那么以上就是这期播客的全部内容啦，然后咱们下期再见拜拜拜拜。</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>

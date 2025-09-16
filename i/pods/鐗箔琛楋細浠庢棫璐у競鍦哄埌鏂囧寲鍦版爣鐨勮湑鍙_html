@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>牯岭街旧货市场：从辉煌到复兴</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f4e9;
+            color: #333;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 253, 245, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b5a2b;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 90, 43, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #5a3921;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(90, 57, 33, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 253, 245, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .vintage-border {
+            border: 1px solid #d4b483;
+            box-shadow: 0 0 0 4px #f8f4e9, 0 0 0 5px #d4b483;
+        }
+        .title-text {
+            color: #5a3921;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold title-text mb-2">牯岭街旧货市场：从辉煌到复兴</h1>
+            <p class="text-gray-600">探索台北百年老街的文化变迁</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8 vintage-border">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/WOIfpcbr8Xg/'); height: 200px; border-radius: 12px;"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/a32a7e456e094bc98e8213905b09b441.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6 vintage-border">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-book-open mr-2 text-amber-800"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container" id="transcript">
+                <p><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听，今天的播客，然后今天咱们要带大家一起聊一聊。台湾台北市的牯岭街，从一个旧货市场。到现在变成一个所谓的文化地标的，这样的一个转变的过程，以及它背后的一些文化意义。</p>
+                
+                <p><span class="speaker-b">男生:</span> 听起来很有意思，那我们就马上开始吧！</p>
+                
+                <p><span class="speaker-a">女生:</span> 那咱们今天就先从一个问题开始吧就是，牯岭街的这个旧货市场它到底是怎么来的？它早期是一个什么样的形态？</p>
+                
+                <p><span class="speaker-b">男生:</span> 哦这个问题很好那其实。呃牯岭街的这个旧货交易的这个历史啊其实要追溯到。一九四五年台湾光复，那时候呢有一些日据时期。住在总督府宿舍的这些日本人啊他们在返国之前呢就把他们家里面的一些。字画呀古董啊还有藏书啊就拿出来。就地摆摊出售，那这个就形成了这个市场的一个雏形。</p>
+                
+                <p><span class="speaker-a">女生:</span> 哦，所以是从这样的一个，小小的，交易开始的对。</p>
+                
+                <p><span class="speaker-b">男生:</span> 对，然后后来呢就是国民党政府迁台之后呢又有很多的这个军公教人员。来到台北那他们又带来了很多他们的。书籍啊还有生活用品啊那这个时候呢市场就更丰富了。最多的时候，在牯岭街，就聚集了超过一百家的摊商。甚至呢，扩展到了，厦门街和福州街，这一带就形成了一个。很完整的这个交易网络。</p>
+                
+                <p><span class="speaker-a">女生:</span> 那为什么，二十世纪的五六十年代会成为牯岭街的这个，旧书市场的黄金年代，它到底在当时，有什么样的独特的地位和影响呢？</p>
+                
+                <p><span class="speaker-b">男生:</span> 那个时候你走在牯岭街就感觉，书是，几乎是你的唯一的视觉。就是，他在树下在墙边，全部都是书堆的像山一样你只能，侧着身走。然后呢，你可以找到几乎所有的你想要的书。从抗战前的大陆的出版物。到很多很多的学术教材啊再到一些很珍贵的文史期刊比如说长流啊。文坛啊，等等这些。</p>
+                
+                <p><span class="speaker-a">女生:</span> 听起来简直是爱书人的天堂啊！</p>
+                
+                <p><span class="speaker-b">男生:</span> 对啊，就是那个时候连香港的书商他们因为没有办法从大陆这边进到旧书。他们都要跑到牯岭街来进货。然后还有很多就是冷战时期的国际的学者。他们也会来这边淘宝，甚至他们会用美金来买，整箱整箱的买回去。所以那个时候牯岭街的这个旧书的交易。真的是，深深的影响了整个华语世界的，文化的传播。</p>
+                
+                <p><span class="speaker-a">女生:</span> 为什么后来，会从，这样的一个辉煌一下子就，没落了呢？</p>
+                
+                <p><span class="speaker-b">男生:</span> 就是因为，呃七十年代初的时候。台北市为了整顿市容就把牯岭街的这些摊商呢就全部都，迁到了光华商场。那虽然说改善了这个环境啊但是。就失去了这种，街头的这种热闹的气氛。然后再加上后来随着时代的发展。大家获取信息的方式越来越多样化了。所以对旧书的这个需求也就减少了那光华商场的旧书店也从以前的七八十家。到现在就只剩二十几家了，牯岭街就更不用说了就只剩四五家还在那边苦苦支撑。</p>
+                
+                <p><span class="speaker-a">女生:</span> 那为什么，这个，两千零几年之后，牯岭街又会？再次迎来它的这个，复兴呢？</p>
+                
+                <p><span class="speaker-b">男生:</span> 就是两千年之后呢这个牯岭街的这个社区发展协会。他们就开始推动这个，重温旧书乡这样的一个活动。就是他们会在春秋两季的时候办这个创意市集。然后就会有很多旧书摊又重新回来。也会有一些，比如说，草编的明信片啊。木炭的雕刻啊铁丝的手工艺品啊，各种很有创意的一些摊位。再加上他们，本身就有的十几家这个邮币社。他们也会在这个时候拿出一些很珍贵的东西来展售。再加上这个牯岭街小剧场他们也会长期的有一些实验戏剧的演出。所以就吸引了很多年轻人。</p>
+                
+                <p><span class="speaker-a">女生:</span> 所以现在的牯岭街其实它不仅仅是一个，旧书市场，它更像是一个，文化的地标。那它到底承载了哪些，更深层次的意义呢？</p>
+                
+                <p><span class="speaker-b">男生:</span> 就是牯岭街它，不光是保存了很多线装书啊手抄本啊这些给研究者提供了很多宝贵的资料。它其实也是很多老一辈的台北人。他们的青春的回忆，就是一个精神的寄托。然后现在它又变成了一个。传统和创新交织的一个地方你可以看到像松林书局这样的。老店依然在那边，同时也有很多年轻的创作者在那边。有他们的一些创意的空间，所以它其实也是台北这个城市的。多元文化的一个很重要的象征。</p>
+                
+                <p><span class="speaker-a">女生:</span> 对今天我们聊了这么多关于牯岭街从。兴盛到，没落再到，重生的这样的一个过程，其实它不仅仅是一个市场的变迁。它也是整个台北，城市文化的一个。缩影，对，它是有温度的，它是有记忆的。</p>
+                
+                <p><span class="speaker-b">男生:</span> 好了以上就是这期播客的全部内容啦，谢谢大家的收听，然后咱们下期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-700 hover:underline">coze space</a></p>
+        </div>
+    </div>

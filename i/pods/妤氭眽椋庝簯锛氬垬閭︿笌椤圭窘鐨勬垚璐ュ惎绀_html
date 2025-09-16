@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>没自信 杀功臣--老梁刨楚汉</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e9;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            background-color: rgba(139, 69, 19, 0.08);
+            border-left: 5px solid #8b4513;
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+            border-radius: 0 8px 8px 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .history-theme {
+            background-color: #f8f1e9;
+            color: #3a3226;
+        }
+        .history-title {
+            color: #5d4037;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen history-theme">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold history-title mb-2">没自信 杀功臣--老梁刨楚汉</h1>
+            <p class="text-gray-600">刘邦与项羽：自信与自负的历史启示</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/RtK289mARNA/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/dca53e3c3af34b3a9f6fd3a00d357ec1.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-brown-500"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听今天的，播客，咱们今天继续来聊，楚汉这段历史啊咱们上一期啊。聊到了刘邦和项羽啊他们两个人的这个性格啊其实都有不自信的一面，嗯啊，导致了刘邦。大杀功臣，啊导致了项羽，众叛亲离。嗯啊最终都导致了一个不好的结局，嗯啊咱们今天就来好好的聊一聊这些事情啊然后咱们从中学到什么道理。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 听起来就很有意思，那我们赶紧开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎，那咱们第一个问题啊就是说，刘邦的这些老乡，这些功臣们，在他打天下的过程当中，都起到了哪些关键的作用？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，比如说樊哙，他本来是一个杀狗的。然后呢，在鸿门宴的时候，他就是，硬闯营帐。用他的那种气势，震慑住了项羽。为刘邦，争取了逃脱的机会。还有萧何，他本来是一个小吏，他就是在后方。帮刘邦，安抚百姓，筹备粮草。招募士兵，就是他的这个后勤工作做的非常好，才让刘邦的这个大军，没有后顾之忧。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎那为什么，刘邦在当上皇帝之后，要对这些，老乡，功臣们，下杀手呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 像韩信他就是，军事才能特别强。然后，帮刘邦打下了，大半个江山。但是呢他就是，功劳太大了刘邦就很忌惮他。又因为他原来是项羽的人，刘邦就先是把他，从齐王。改封为楚王，又把他降为淮阴侯，最后他就是被吕后和萧何合谋给杀了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 看来刘邦对这些功臣确实是，疑心很重啊。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 是啊，还有彭越，他就是也是。在楚汉相争的时候，他就是在项羽的后方。进行游击战，然后，断绝他的粮草。也是帮刘邦，赢得了很多战机。他也是被人告发说他谋反，刘邦就把他抓起来了。本来是要流放他，但是后来也是被吕后，给杀了灭了三族。英布他就是，看到他们两个都这样了，他就很害怕他就起兵造反了。最后也是，刘邦亲自去平叛，虽然把英布，打败了但是刘邦也受了重伤。就驾崩了。就是其实他就是，这些，异姓王。他就是，既立下了这么大的功劳他们又有实力。刘邦又觉得自己的出身又这么低微。他就很害怕他自己死后他的子孙没有办法震慑住这些人所以他就要在自己活着的时候。为他的后代，铺平道路。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎那项羽呢，项羽其实他身边有一个非常厉害的谋士，就是范增。啊，那为什么他最后也没有，信任范增呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是因为项羽他这个人就是太自负了他觉得自己，武力盖世。然后他就，听不进去别人的意见。范增其实在鸿门宴的时候就已经，好几次提醒他要杀刘邦。他都，没有听。后来又中了刘邦的反间计。他就，开始怀疑范增，范增就很失望就离开了他。他离开他之后，就病死了。其实他失去了范增之后他就，在跟刘邦的这个对抗当中就越来越被动。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎，你觉得就是楚汉这段历史当中，其实隐藏了哪些，对我们今天做人做事，有帮助的道理呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是刘邦他因为不自信他就大杀功臣。然后项羽他就是因为既自负又不自信他就，失去了，范增这样的人才。导致最后，乌江自刎。就是其实你可以看到就是，自信是很重要的但是你不能自负。你在用人的时候你要，信任他如果你不信任他你就不要用他。不然的话你就会，让你的团队，人心惶惶。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 好吧，然后今天我们其实聊了这么多啊就是聊了，刘邦和项羽他们两个人。因为自信和自负，所带来的，截然不同的结局。嗯啊其实无论是刘邦的大杀功臣还是项羽的，众叛亲离。其实都给我们，非常深刻的，做人做事的一些启示。嗯啊，好吧那今天的这一期播客的内容咱们就到这里了咱们下期节目再见。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 以上就是这期播客的全部内容，谢谢大家的收听，咱们下期再见，拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-brown-500 hover:underline">coze space</a></p>
+        </div>
+    </div>

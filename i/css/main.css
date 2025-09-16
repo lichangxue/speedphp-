@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*
+ *Last modified: 2022-06-25 18:38:36
+ *Url: https://www.axui.cn
+*/
+
+.login {
+  width: 1000px;
+  background-color: #fff;
+}
+.login .cover {
+  background-image: url(/i/img/login-left.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login .core {
+  padding-left: 28px;
+}
+@media screen and (max-width: 900px) {
+.ax-align-origin {
+    display: block;
+    background-image: url(/i/img/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .login .cover {
+    height: 20rem;
+    border-radius: 0;
+  }
+  .login .core {
+    padding-left: 0;
+  }
+  .login form {
+    margin: 0;
+  }
+  .footer {
+    position: inherit;
+    color: #666666;
+  }
+  .footer a {
+    color: #666666;
+  }
+}

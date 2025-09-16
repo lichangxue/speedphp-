@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东西方建筑空间观念的差异与融合</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f4f0;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #7c3aed;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(124, 58, 237, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #059669;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(5, 150, 105, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">东西方建筑空间观念的差异与融合</h1>
+            <p class="text-gray-600">探索不同文化背景下的建筑哲学与美学</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/8WdwRTc27u8/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/907d8a86ac574ea29d6dbae0a3cc56ea.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-closed-captioning mr-2 text-purple-500"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到我们的播客，然后今天咱们这个播客的内容呢，是想聊一聊。东西方建筑在空间观念上面的一些差异，以及可能存在的一些融合的趋势。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，挺有意思的一个话题，那我们就开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 咱们就先从一个，比较大的问题开始吧就是说。到底是什么，导致了东西方建筑，风格上面会有这么大的差异？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，我觉得这个就是跟他们的文化还有哲学是非常相关的嗯，就比如说西方的建筑。他其实是受古希腊哲学的影响非常深。嗯，就他们会认为数是万物的本原，嗯，所以他们在建筑上面就会特别追求一种。几何的精确性，还有比例的和谐。嗯，你比如说像帕特农神庙，嗯他的每一根柱子都是有微微的倾斜的。嗯，然后他的那个，呃，矩形的这个外观其实都是。非常精密的计算过的，嗯，就是要让你产生一种视觉上的完美的效果。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 听起来就是西方建筑真的对这种数理的美，追求的，让人发指啊！</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对那东方的建筑呢就不一样了，东方的建筑他讲究的是天人合一。嗯，就是他会跟自然融为一体，你比如说像安徽的宏村。他整个这个村落就是按照南湖的这个，水系来建的。然后他的这个水是穿堂过户的，嗯就是他整个村落和这个山水是非常和谐的，融为一体的。就感觉是自然长出来的一样。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你说这个，西方的这种宗教建筑，和中国的这种宫殿建筑。他们在空间的处理上面，为什么会有这么大的差别呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 因为西方的这个宗教建筑比如说像哥特式的教堂。他都是很高很高的尖顶然后，有非常大面积的花窗玻璃。他营造的是一种非常向上的，飞升的这种感觉。你比如说巴黎圣母院它的这个尖顶有九十米高。嗯，你站在里面就会觉得，你非常的渺小，你会感受到神的伟大。他其实就是跟基督教的这种。连接人，和神的这种教义是非常相关的。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 中国的故宫就完全不一样的气场了。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对故宫他是一个，完全中轴对称的，然后他的这个建筑的高度都是被严格控制的。他的这个皇权的象征是被藏在这一进一进的院子里面的。你只有通过一个空间的序列慢慢的走进去才能感受到。他的那个太和殿也是，非常的，沉稳。非常的庄重，但是他没有那种，很高很高的，直冲云霄的这种感觉。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那你说这个东方的这种园林的空间，处理和西方的那种，很不一样那你说这种，独特的处理方式它到底带来了哪些？效果呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 东方的园林就比如说像苏州的拙政园，他就是以这种。亭台楼阁，假山池沼的这种，巧妙的布局。然后来营造一种，步移景异的效果。你比如说他的那个小飞虹桥，他既划分了这个水面的空间。同时它本身又是一个非常好的观景点。就是你会感觉到它是一个非常充满了诗意的空间。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那在全球化的今天呢你觉得这种东西方的建筑文化在空间的处理上面会有哪些新的融合的趋势？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就现在其实很多的，现代建筑他会吸取很多东方和西方的长处。比如说贝聿铭设计的苏州博物馆。他就是用了很多现代建筑的这种几何的美感，然后同时又加入了苏州园林的这种。造园的手法，让它有层次感，又有一些。传统的东西在里面。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对今天我们聊了这个东西方建筑的空间观念的差异啊无论是从。这个数理的美学到天人合一的这种哲学，还是从这个哥特式的教堂到苏州的园林。每一个都给我们带来了非常独特的视觉和文化的体验。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> OK 了那么以上就是这期播客的全部内容啦然后感谢大家的收听咱们下期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-purple-500 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>

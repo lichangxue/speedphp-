@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>永康街：台北最欢乐的小街</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f4f0;
+            color: #333;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #d97706;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(217, 119, 6, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #065f46;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(6, 95, 70, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .food-icon {
+            color: #d97706;
+            margin-right: 0.5rem;
+        }
+        .location-icon {
+            color: #065f46;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">永康街：台北最欢乐的小街</h1>
+            <p class="text-gray-600">探索台北最具魅力的美食文化街区</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/U5KeiXBbgLM/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/c7fd1d8af48a43aba9fbabd32ed7e9b3.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 text-center mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-closed-captioning mr-2 text-amber-600"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎收听今天的，播客。我们今天要聊一聊，台北的永康街啊，看看这个被大家称为。全台北最欢乐的小街到底有些什么特别的地方。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 听起来很有意思哎那我们就直接开始吧直接开始看看这个永康街到底有哪些好吃的好玩的不能错过的东西。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎，志远你还记得你第一次去永康街是什么样的印象吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，应该有十几年前了。对，那时候就是去，鼎鼎大名的鼎泰丰吃小笼包。哦对然后排队排了很久但是第一口咬下去那个小笼包还是很值得的。整个街就是那种感觉很热闹但是又很亲切，很有那种历史的痕迹但是又很有活力。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 永康街这个，美食文化的多元性是怎么来的呢它的历史是怎么发展起来的呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 永康街的历史就要追溯到，五六十年前。日据时期的时候这里是日本官员的宿舍，那后来。二战之后呢这里就变成了一些机关啊还有高校的宿舍。那后来又有很多这个从大陆来的移民就涌入了这个地方。所以这个地方就开始有了，比如说江浙的点心。广东的烧鸭，还有很多北方面食就都进来了。所以就开始有了这种，多元饮食的这个基础。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 听起来就像一个饮食文化的小小熔炉啊！</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 对没错没错！然后很多现在很有名的店其实他们的故事都是从一个小摊开始的哦，比如说有一个。呃他的爸爸是卖馄饨面的。他就是从一个小推车开始慢慢的有了自己的店面有很多这种。从草根慢慢做起来的这种美食的故事在永康街再加上。三十年前，那个时候商业开始发展有很多这种小平房就变成了这种。小公寓，一楼还是继续做这种商铺。所以就形成了这种，下店上居的这种模式也让这个，街道一直都保持着这种很浓厚的社区的氛围。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎那，我在想一个问题啊就是这个。一九九四年这个大安森林公园的开放对永康街的发展到底带来了什么样的影响？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 呃可以说就是给永康街添了一个后花园。对，然后有了更多的绿色，也吸引了更多的游客。包括，呃当时还保留了永康公园。就是当时也是居民一起反对说不要把这个永康公园改成马路。所以说也是因为这样的一个坚持吧所以让这个街道，一直都是一个很适合居住的，又很有人情味的这样的一个地方。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 永康街有哪些美食是绝对不容错过的呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 当然就是从这个捷运东门站出来就可以看到的鼎泰丰啊！鼎泰丰的小笼包可以说是。皮薄馅大，然后汤汁也非常的鲜美每一个都像一个艺术品一样。除了小笼包之外我还非常推荐他们的排骨炒饭，还有蟹粉汤包。也都是非常好吃让人念念不忘的。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 听起来就已经让人，垂涎欲滴了，那除了鼎泰丰还有什么别的值得一试的吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 当然有呀就是在永康街的这个入口处啊有一家叫高记。是一个老上海的餐馆，然后他也是这个我可能不会爱你的。取景地哦，对，他们家的生煎包真的是我吃过最好吃的生煎包没有之一。底是脆的上面是发面的，很软里面的肉馅又很鲜又有很多汤。配上他们家那个醋真的绝了！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 除了这些传统的美食之外永康街有没有什么比较？新兴的这种网红美食呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 有啊有啊比如说这个哞熹哞熹。他们家的这个黑糖珍珠鲜奶。他是用那个黑糖酱。在杯子上画出来这种虎斑的纹路然后再加上。鲜奶和他们自己做的珍珠，非常的漂亮又很好喝。还有就是这个 Bobii Frutii.他们家也是非常有创意的把这个珍珠奶茶和水果结合在一起。啊，什么不想上班啊，不甘平凡啊这种。很有趣的名字又很好喝很受年轻人欢迎！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 除了这些好吃的之外永康街这个地方还有什么，其他的亮点可以吸引？游客呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 永康街其实也是一个，文青小店的集中地。就有很多很有特色的咖啡馆啊然后茶馆啊还有一些设计小店。比如说有一家咖啡馆叫时光角落。他里面就是非常简单的装修但是又很温暖他会定期的举办一些小型的艺术展览。还有一些这种原创设计的小店里面会卖一些。本地的设计师做的一些手工艺品啊文具啊非常的有创意很适合去逛一逛。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 听起来就很有意思那永康街周边呢有什么值得一看的吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 当然有啊就是，比如说离得非常近的大安森林公园。它其实是在台北的市中心的一片绿洲。然后非常适合散步啊放松一下。还有就是青田街，青田街那边就是有很多日据时期的这种建筑。非常的有那种，人文的气息，你从永康街的这种热闹繁华。走到青田街就会一下子变得非常的安静优雅，就感觉好像穿越了一样。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 为什么永康街会被称为全台北最欢乐的小街呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 因为它这个地方就是。游客也很多然后又有很多很热情的居民。大家就会在这里。分享美食分享文化非常的欢声笑语再加上他们也会有一些街头表演啊有一些文化活动。比如说他们会有美食节啊会有一些艺术展览啊等等。所以它就是一个，永远都很有活力很欢乐的一个气氛。到了晚上，所有的这些店铺的灯光都亮起来。这个霓虹灯闪烁，就真的像一个。不夜城一样大家都在外面，吃东西啊聊天啊就真的很热闹很温馨。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 听了今天的内容你是不是也对永康街充满了向往呢？对那就赶紧把它加入到你的。旅行清单里面吧。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> OK 了以上就是这期播客的全部内容啦然后。咱们下期再见拜拜拜拜！</p>
+            </div>
+        </div>
+
+        <div class="glassmorphism p-6 mt-8">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-utensils mr-2 text-amber-600"></i>永康街必吃美食
+            </h2>
+            <ul class="space-y-3">
+                <li class="flex items-start"><i class="fas fa-dumpling food-icon mt-1"></i> <span><strong>鼎泰丰</strong> - 小笼包、排骨炒饭、蟹粉汤包</span></li>
+                <li class="flex items-start"><i class="fas fa-bread-slice food-icon mt-1"></i> <span><strong>高记</strong> - 生煎包（《我可能不会爱你》取景地）</span></li>
+                <li class="flex items-start"><i class="fas fa-coffee food-icon mt-1"></i> <span><strong>哞熹哞熹</strong> - 黑糖珍珠鲜奶</span></li>
+                <li class="flex items-start"><i class="fas fa-mug-hot food-icon mt-1"></i> <span><strong>Bobii Frutii</strong> - 创意珍珠水果茶</span></li>
+            </ul>
+        </div>
+
+        <div class="glassmorphism p-6 mt-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-map-marked-alt mr-2 text-green-700"></i>周边景点推荐
+            </h2>
+            <ul class="space-y-3">
+                <li class="flex items-start"><i class="fas fa-tree location-icon mt-1"></i> <span><strong>大安森林公园</strong> - 台北市中心的绿色绿洲</span></li>
+                <li class="flex items-start"><i class="fas fa-archway location-icon mt-1"></i> <span><strong>青田街</strong> - 日据时期建筑群</span></li>
+                <li class="flex items-start"><i class="fas fa-store location-icon mt-1"></i> <span><strong>时光角落咖啡馆</strong> - 文艺小店</span></li>
+            </ul>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-amber-600 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>

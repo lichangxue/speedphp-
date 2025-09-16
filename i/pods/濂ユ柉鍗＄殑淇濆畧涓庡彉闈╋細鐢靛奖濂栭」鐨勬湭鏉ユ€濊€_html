@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奥斯卡是否越来越保守？ | 光影漫谈</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e9;
+            color: #333;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #9c27b0;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(156, 39, 176, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #2196f3;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(33, 150, 243, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">奥斯卡是否越来越保守？</h1>
+            <p class="text-gray-600">探讨奥斯卡的类型偏见与未来变革</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/JuEJCzuzB_8/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/23e124ef4def4bebaf238cb6fb427903.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-closed-captioning mr-2 text-purple-500"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">林溪:</span> 哈喽大家好欢迎收听，我们的播客。哎今天我们来聊一聊，奥斯卡，是不是越来越，保守了，啊越来越无聊了。以及它背后的一些，类型上面的偏见，和一些深层的原因。</p>
+                
+                <p class="mb-3"><span class="speaker-b">陈默:</span> 嗯，哎这个话题确实挺有意思的那我们就直接开始吧就直接来聊一聊。奥斯卡到底要怎么样才能够，重新赢回大家的关注？</p>
+                
+                <p class="mb-3"><span class="speaker-a">林溪:</span> 哎那就是说，我们首先来聊一聊就是说，奥斯卡近几年的结果是不是让人觉得越来越没有惊喜了？</p>
+                
+                <p class="mb-3"><span class="speaker-b">陈默:</span> 就今年吧就今年这个奥本海默。拿了七个大奖感觉就是，完全就是跟着，金球奖和 BAFTA 的风向走。就你完全没有任何悬念就感觉像是在看一个，已经提前知道了答案的考试。</p>
+                
+                <p class="mb-3"><span class="speaker-a">林溪:</span> 哎确实，就这种感觉就少了很多，趣味性。</p>
+                
+                <p class="mb-3"><span class="speaker-b">陈默:</span> 对去年的瞬息全宇宙之后大家还在说啊终于，亚裔的这个任务完成了。那今年你看这个过往人生这么受好评但是那个格蕾塔李连提名都没有。包括这个花月杀手里面的这个莉莉格莱斯顿也没有。成为第一个，原住民的影后，而是还是这种白人男性的这种历史传记片又一次的。占领了这个高地就真的是。</p>
+                
+                <p class="mb-3"><span class="speaker-a">林溪:</span> 你觉得是不是，奥斯卡在，类型上面的这种偏好，导致他其实也在疏远一部分观众？</p>
+                
+                <p class="mb-3"><span class="speaker-b">陈默:</span> 对我觉得还是有这种就是，你看像芭比这种。明明是年度话题，但是最后也就是靠这个瑞恩高斯林的这个歌舞，稍微刷了一下存在感。就是，学院派他们还是更偏向于这种。严肃的，所谓的有深度的这种题材对，而对于这种喜剧其实一直都是。有一些偏见的这个其实早就在。很多年前就有这个大西洋月刊就有批评过他们这种。只认，伍迪艾伦这种知识分子式的喜剧对其他的喜剧都。不屑一顾，然后再加上就是他的这个收视也是一年不如一年嘛。他这个巅峰的时候是有五千五百万的观众，现在已经连一半都不到了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">林溪:</span> 就是为什么会有这种，奥斯卡一边在喊着要多元化，一边其实又在，悄悄的回到这种保守的评选？</p>
+                
+                <p class="mb-3"><span class="speaker-b">陈默:</span> 这个我觉得还是跟他们这个所谓的学院派的。属性有关就是他们还是认为这种。商业大片就是一种感官刺激。对，然后只有这种，涉及到种族啊历史啊这些。严肃的议题的才叫艺术对。再加上就是现在这个公关费用也水涨船高你要去竞选这个最佳影片。可能要花到五百万美元去拉票。这都比一些，小成本电影的整个预算都要高了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">林溪:</span> 你觉得奥斯卡要怎么改变才能够，重新赢回大家的关注？</p>
+                
+                <p class="mb-3"><span class="speaker-b">陈默:</span> 我觉得他可能要，彻底的改变，嗯比如说他的这个评委的构成要更加的多样化。然后他要，打破这种类型上面的偏见。重新去定义什么是艺术价值，因为电影本来就是一个多元化的艺术形式对他不应该只有一个答案。</p>
+                
+                <p class="mb-3"><span class="speaker-a">林溪:</span> 对今天我们聊了这么多关于奥斯卡的这种。保守性，和他的这种类型偏见，从他的评选的结果，到他背后的一些公关的操作。再到他未来可能要怎么改变，确实让人对这个，电影界的最高奖项，有了一些新的思考。</p>
+                
+                <p class="mb-3"><span class="speaker-b">陈默:</span> 以上就是这期播客的全部内容啦，然后咱们下期再见吧，拜拜拜拜。</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-purple-500 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>

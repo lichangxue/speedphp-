@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1001,
+        "title": "系统管理",
+        "parentid": 0,
+        "icon":"",
+        "view_type":1,
+        "children": [
+            {
+                "id": 10001,
+                "title": "用户管理",
+                "parentid": 1001,
+                "icon":"",
+                "view_type":1,
+                "children": []
+            },
+            {
+                "id": 10002,
+                "title": "角色管理",
+                "parentid": 1001,
+                "icon":"",
+                "view_type":1,
+                "children": []
+            },
+            {
+                "id": 10003,
+                "title": "菜单管理",
+                "parentid": 1001,
+                "icon":"",
+                "view_type":1,
+                "children": []
+            }
+        ]
+    }
+]

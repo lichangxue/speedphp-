@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老梁剖析虞姬:乱世中的红颜传奇</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e9;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #a52a2a;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(165, 42, 42, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .title-text {
+            color: #5c3a21;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold title-text mb-2">老梁剖析虞姬:乱世中的红颜传奇</h1>
+            <p class="text-gray-600">楚汉那段历史中的爱情绝唱</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/QHpPP9beCBc/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/768ab01baa6349eebb42181e9433ccb1.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-closed-captioning mr-2 text-brown-500"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到今天的播客，我们今天要聊一聊，楚汉时期的一个传奇人物啊虞姬。啊，我们会聊一聊她的身世她的爱情，以及她为什么在历史上留下这么深远的影响。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 听着就很吸引人那我们就直接开始聊聊这个乱世红颜的故事吧。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎，那我们就来聊一聊啊这个虞姬她到底是一个什么样的人啊为什么她在正史当中记载非常少。但是在民间却有这么大的名气？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是因为她跟项羽的这个爱情啊太感人了就是在这个楚汉相争的这个宏大的历史背景下。他们两个人的这种感情被，被很多人传颂。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对虞姬的名字也很好听啊，但是关于虞姬的身世始终是一个谜啊到底有哪些说法呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是史记里面对她的记载只有，有美人名虞。所以就有人说这个虞是他的名字，也有人说这个是他的姓，然后他的出生地也有。两种比较流行的说法一个是说他是江苏沭阳颜集人。那边还有虞姬沟虞姬庙什么的一些古迹，另一个说法是说他是江苏吴县人。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 虞姬不光是长得漂亮啊，而且她是一个才艺双全的女子啊，她有哪些让人印象深刻的才艺呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是传说她不仅善舞而且她的剑舞也非常的厉害就是她的剑舞既可以非常的轻盈。然后又可以非常的有力量感，就是他的这个刚柔并济的这个舞蹈。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎，那虞姬和项羽的爱情故事当中有哪些细节让你觉得特别动人呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是虞姬她是因为爱慕项羽的英勇。然后就跟他，就是结为连理就一直陪伴他，南征北战。项羽也是对她，非常的宠爱就是他甚至在行军的时候都要带着她。就他们两个人的这种感情在那个乱世当中就像一，一，一束光一样。就是非常的温暖又非常的坚定。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哎，那就是这个垓下之战啊，这个四面楚歌的时候，项羽和虞姬他们两个人分别做了什么呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 当时项羽就是被围在垓下嘛然后他，兵也很少粮食也没有了。他夜里头听到这个四面都是楚歌，他就非常的绝望他就。对着虞姬唱了这个垓下歌。就是他非常的，感慨自己的这种英雄末路也非常的担心虞姬的这个命运。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那虞姬呢她当时是怎么回应项羽的？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 虞姬就是为了让项羽能够没有牵挂的去突围然后她就和了一首和垓下歌。就，拔剑自刎了，就非常的决绝也展现了她对项羽的这种忠贞。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 虞姬为什么选择自杀？她当时是怎么想的？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是她知道项羽是非常在乎她的如果她，跟着一起突围的话项羽一定会因为要保护她。然后就，没有办法专心的去突围。同时她也不愿意，在项羽失败之后被汉军，侮辱。所以她就，以死来表明自己的这种，对爱情的忠贞和自己的尊严。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 虞姬的死对项羽产生了什么样的影响？他们两个人的爱情故事为什么能够流传千古？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 虞姬的死让项羽就是，非常的，痛心。然后他就，带领着他剩下的八百多骑兵就拼命的突围。虽然最后他也，在乌江自刎了但是他和虞姬的这段感情就因为他们两个人这种。忠贞不渝又非常的，悲壮就被，后人一直传颂。成为了一个，象征着，爱情的，坚贞的一个。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 虞姬作为一个在历史当中，算是一个配角吧，为什么她能够获得后世这么多人的？赞叹和纪念？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是因为虞姬她的这种忠贞她的这种勇敢包括她的这种决绝。让她的这个形象，虽然在正史里面可能只是一个，配角。但是她却，比很多英雄豪杰都还要，让人觉得光芒万丈。然后包括很多文人墨客都有，写诗歌来纪念她。包括这个戏曲舞台上面的霸王别姬，也一直在，上演。她就成为了一个，爱情的忠贞的一个象征。就她的故事不仅仅是让我们感受到了爱情的力量。同时他也让我们，对于楚汉那个，波澜壮阔的时代有了更多的，思考。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对今天我们聊了虞姬啊她的这个美丽她的才艺她的忠贞包括她的决绝。让我们看到了一个在乱世当中。用生命来书写爱情的这样一个传奇的女子。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 好了以上就是这期播客的全部内容啦然后。感谢大家的收听咱们下期再见拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-brown-600 hover:underline">coze space</a></p>
+        </div>
+    </div>

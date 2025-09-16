@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吕后与戚夫人的后宫死斗</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1e9;
+            color: #3a3226;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 253, 245, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b4513;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #556b2f;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(85, 107, 47, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 253, 245, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .title-text {
+            color: #5d4037;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold title-text mb-2">吕后与戚夫人的后宫死斗</h1>
+            <p class="text-gray-600">西汉初年惊心动魄的权力斗争</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/MNPhpPdDe-4/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/cc293f5377b04260aa62962ed7a516fb.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-scroll mr-2 text-brown-600"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-amber-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到今天的播客，今天我们要聊一聊这个吕后和戚夫人，在后宫里面的这个生死斗争。啊，看看这个权力的争夺，到底是怎么，让人性，扭曲的。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，这个听着就很有戏剧性，那我们就赶紧开始吧！</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那咱们先来聊一聊就是，吕后和戚夫人的这场后宫的斗争，到底有什么意义呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是这是一场，西汉初年，非常，惨烈的，两个女人之间的争宠，但是其实它背后隐藏的是，权力的，血腥的博弈。然后它直接就影响了，当时的政治格局。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 就是吕后和戚夫人，他们两个人的矛盾是怎么一步一步激化的？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是一开始就是，吕后她是，刘邦的，结发妻子，然后她也是跟刘邦，吃了很多苦。后来刘邦称帝之后她就成了皇后，但是呢她就，因为年纪大了就失宠了。这个时候戚夫人就，年轻貌美又能歌善舞，她就很得刘邦的宠爱。她又，想让自己的儿子，刘如意，去取代，吕后的儿子刘盈成为太子。所以这个就直接，点燃了，吕后的这个怒火。因为太子之位，是，吕后她的，地位的一个保障。所以他们就从，争宠就变成了一个，你死我活的权力的争夺。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你说这个，吕后和戚夫人的这个冲突是怎么一步一步升级的最后？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是戚夫人她就是，想让她儿子当太子这个事让吕后非常的，紧张。然后她就，用了很多手段比如说她去联络大臣，包括她甚至，卑躬屈膝的去。感谢那个周昌，就是因为周昌帮她，在刘邦面前，强争。后来她又，听了张良的计策，去把这个商山四皓请出来，辅佐刘盈。最终就，让刘邦彻底的放弃了，改立太子的这样的一个想法。但是呢，戚夫人她还是，很嚣张。她也不把吕后放在眼里，所以就是两个人的这个仇恨就越来越深。吕后就，一直在积蓄力量，等待机会。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 吕后在刘邦去世之后她是怎么对戚夫人进行报复的，然后这个又带来了什么样的后果呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是刘邦一死，吕后就，开始了她的报复。她先是把戚夫人，囚禁起来，然后让她去舂米。后来又把她的儿子，刘如意，也，骗到京城来把他毒死。最后她就，把戚夫人，做成了人彘。就是非常非常惨，她还让她的儿子，刘盈去看这个，人彘。刘盈看了之后就非常的崩溃。他就觉得，这不是人干的事。他就，从此之后就，一蹶不振。也不再理朝政，最后他年纪轻轻的就死了。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那你说吕后和戚夫人的这场斗争给我们，留下了什么样的，深刻的警示呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是，戚夫人她是因为自己的野心还有她的傲慢，然后付出了生命的代价。吕后她虽然赢了，但是她也，留下了千古的骂名。而且她也，因为她的这种残忍让她的儿子，刘盈，陷入了绝望。也，严重的动摇了，西汉初期的，政治根基。所以就是，它其实告诉我们就是权力这个东西，你过度的去追逐它。就会让你，失去人性。最终会，让你自己，和周围的人都，深受其害。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对今天咱们聊了这个吕后和戚夫人的这场，惊心动魄的后宫的斗争。然后我们看到了这个权力的争夺，是怎么，彻底的扭曲了人性。也给当时的这个社会，带来了非常深远的，影响。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，OK 了那么以上就是这期播客的全部内容啦，然后咱们下期再见吧，拜拜拜拜。</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-brown-600 hover:underline">coze space</a></p>
+        </div>
+    </div>

@@ -1,0 +1,1250 @@
+Thu, 04 Jun 2020 03:59:03 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 03:59:03 GMT
+x-kss-meta-test:example
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 03:59:03 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:x62TSOIB9pPLrCVIgfei07yj6c0=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 03:59:03 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"4130dc39b07f4cd7b67990813a31b40a";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:496;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.035191;s:15:"namelookup_time";d:0.00069399999999999996;s:12:"connect_time";d:0.00089499999999999996;s:16:"pretransfer_time";d:0.00092599999999999996;s:11:"size_upload";d:0;s:13:"size_download";d:237;s:14:"speed_download";d:6771;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.034978000000000002;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:12992;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>/cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>385aa05acc5a4b4db0abcda64ece4c57</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:00:20 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 04:00:20 GMT
+x-kss-meta-test:example
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:00:20 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:GkhWPq7+qYJPQKr1VQRW71/Zamc=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 04:00:20 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"c581409146ff4b41b3115a0d5d5f0be2";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:496;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.020088999999999999;s:15:"namelookup_time";d:0.00048500000000000003;s:12:"connect_time";d:0.00076999999999999996;s:16:"pretransfer_time";d:0.000803;s:11:"size_upload";d:0;s:13:"size_download";d:238;s:14:"speed_download";d:11900;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.019855999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.40";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:37736;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>/cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>c8c9326c2b444825b06d3e0ab1cd2978</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:01:15 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"c8c9326c2b444825b06d3e0ab1cd2978";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591243219.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 04:00:20 GMT
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?partNumber=1&uploadId=c8c9326c2b444825b06d3e0ab1cd2978
+request url->s:151:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploadId=c8c9326c2b444825b06d3e0ab1cd2978&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:00:20 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:g23CT/rXg1mfUI+7zVW+sxZbnew=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(50): main->multipartUpload('/www/wwwroot/fi...', '/cmpp/2020/0604...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(26): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:02:50 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 04:02:50 GMT
+x-kss-meta-test:example
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:02:50 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:Afb85wQS0fh4VXcf7xe3N12CC6Y=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 04:02:50 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"a96df979cc844728a8bcb0df7eb6315d";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:496;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.020684999999999999;s:15:"namelookup_time";d:0.000426;s:12:"connect_time";d:0.00060899999999999995;s:16:"pretransfer_time";d:0.00064099999999999997;s:11:"size_upload";d:0;s:13:"size_download";d:239;s:14:"speed_download";d:11950;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.020629000000000002;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.40";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:42270;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>/cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>4c8d8edc8bde486abf1dca8e3e13f6cf</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:03:45 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"4c8d8edc8bde486abf1dca8e3e13f6cf";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591243370.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 04:02:50 GMT
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?partNumber=1&uploadId=4c8d8edc8bde486abf1dca8e3e13f6cf
+request url->s:151:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploadId=4c8d8edc8bde486abf1dca8e3e13f6cf&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:02:50 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:79Gnj1PzJWNjIy5/rwmJXV+Vgs0=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(50): main->multipartUpload('/www/wwwroot/fi...', '/cmpp/2020/0604...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(26): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:05:07 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 04:05:07 GMT
+x-kss-meta-test:example
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:05:07 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:sYqhLbZmHekSBsIZ/b928pC+7bo=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 04:05:07 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"a3107dc727264a45aef657cfdd59a586";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:496;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.023379;s:15:"namelookup_time";d:0.00044000000000000002;s:12:"connect_time";d:0.00066100000000000002;s:16:"pretransfer_time";d:0.00069700000000000003;s:11:"size_upload";d:0;s:13:"size_download";d:239;s:14:"speed_download";d:10391;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.023177;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.40";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:46958;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>/cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>2ac12949956f475ea875b919559b4860</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:06:02 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"2ac12949956f475ea875b919559b4860";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591243507.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 04:05:07 GMT
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?partNumber=1&uploadId=2ac12949956f475ea875b919559b4860
+request url->s:151:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploadId=2ac12949956f475ea875b919559b4860&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:05:07 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:n+9s/7HXP2yah0fvzP+0NYnoj3k=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(50): main->multipartUpload('/www/wwwroot/fi...', '/cmpp/2020/0604...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(26): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:10:38 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 04:10:38 GMT
+x-kss-meta-test:example
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:10:38 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:g/mDbqcoWLrU4R/fdGCGMG6oBIs=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 04:10:38 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"f287e5aa19994f7caf52c91ce1cfcbdd";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:496;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.038588999999999998;s:15:"namelookup_time";d:0.001036;s:12:"connect_time";d:0.0012830000000000001;s:16:"pretransfer_time";d:0.0013140000000000001;s:11:"size_upload";d:0;s:13:"size_download";d:240;s:14:"speed_download";d:6315;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.038424;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:36994;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>/cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>eb2397c547f342cca631b133b1802747</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:11:33 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"eb2397c547f342cca631b133b1802747";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591243838.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 04:10:38 GMT
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?partNumber=1&uploadId=eb2397c547f342cca631b133b1802747
+request url->s:151:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploadId=eb2397c547f342cca631b133b1802747&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:10:38 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:57/D36IZFgACPV3D1cW4bgaW3g4=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(50): main->multipartUpload('/www/wwwroot/fi...', '/cmpp/2020/0604...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(26): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:20:15 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 04:20:15 GMT
+x-kss-meta-test:example
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:20:15 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:KAib+FhDyyw2iPboWya5ueNrJWI=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 04:20:15 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"a470f2fc47394db39e731849033675f1";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:104:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:496;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.023553000000000001;s:15:"namelookup_time";d:0.000544;s:12:"connect_time";d:0.00080699999999999999;s:16:"pretransfer_time";d:0.00084999999999999995;s:11:"size_upload";d:0;s:13:"size_download";d:238;s:14:"speed_download";d:10347;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.02334;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:56498;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>/cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>294aba2e5fec409eaa4d9608d17419a5</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:21:10 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:41:"/cmpp/2020/0604/550_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"294aba2e5fec409eaa4d9608d17419a5";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591244415.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 04:20:15 GMT
+/bucket1imgs/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?partNumber=1&uploadId=294aba2e5fec409eaa4d9608d17419a5
+request url->s:151:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/%2Fcmpp/2020/0604/550_325569_1535952502.jpg?uploadId=294aba2e5fec409eaa4d9608d17419a5&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:20:15 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:uWnTS94L8bC9T+QPrMKGVM+mpXw=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(168): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(50): main->multipartUpload('/www/wwwroot/fi...', '/cmpp/2020/0604...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(26): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:48:48 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:40:"cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 04:48:48 GMT
+x-kss-meta-test:example
+/bucket1imgs/cmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:101:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/cmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:48:48 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:A/dWWc/ACoO/WD20OG1JveaY7iM=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 04:48:48 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"1d95e31471904abd8bf387485342e55f";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:101:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/cmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:490;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.019772000000000001;s:15:"namelookup_time";d:0.001129;s:12:"connect_time";d:0.001389;s:16:"pretransfer_time";d:0.001423;s:11:"size_upload";d:0;s:13:"size_download";d:238;s:14:"speed_download";d:12526;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.019557999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:49302;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>ca96cbb4a3fb40309cab3d98983faf41</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:49:43 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:40:"cmpp/2020/0604/550_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"ca96cbb4a3fb40309cab3d98983faf41";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591246128.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 04:48:48 GMT
+/bucket1imgs/cmpp/2020/0604/550_325569_1535952502.jpg?partNumber=1&uploadId=ca96cbb4a3fb40309cab3d98983faf41
+request url->s:148:"http://bucket1imgs.ks3-cn-beijing-internal.ksyun.com/cmpp/2020/0604/550_325569_1535952502.jpg?uploadId=ca96cbb4a3fb40309cab3d98983faf41&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:48:48 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:AmSGHe3KI+QxgtCAxrRNjFjnp3Y=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(170): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(170): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(52): main->multipartUpload('/www/wwwroot/fi...', 'cmpp/2020/0604/...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(26): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:51:49 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:40:"cmpp/2020/0604/550_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 04:51:49 GMT
+x-kss-meta-test:example
+/bucket1imgs/cmpp/2020/0604/550_325569_1535952502.jpg?uploads
+request url->s:92:"http://bucket1imgs.ks3-cn-beijing.ksyun.com/cmpp/2020/0604/550_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:51:49 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:jDRT5Iaydm5Rm39exZlTQULMk+o=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 04:51:49 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"90aaeff518d9429e858b0fd79251400d";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:92:"http://bucket1imgs.ks3-cn-beijing.ksyun.com/cmpp/2020/0604/550_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:472;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.024159;s:15:"namelookup_time";d:0.00063500000000000004;s:12:"connect_time";d:0.002395;s:16:"pretransfer_time";d:0.0024380000000000001;s:11:"size_upload";d:0;s:13:"size_download";d:238;s:14:"speed_download";d:9916;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.023951;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"120.52.90.102";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:43664;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>cmpp/2020/0604/550_325569_1535952502.jpg</Key><UploadId>f5f34d613d514a04850f5e46db61dc05</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 04:52:44 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:40:"cmpp/2020/0604/550_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"f5f34d613d514a04850f5e46db61dc05";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591246309.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 04:51:49 GMT
+/bucket1imgs/cmpp/2020/0604/550_325569_1535952502.jpg?partNumber=1&uploadId=f5f34d613d514a04850f5e46db61dc05
+request url->s:139:"http://bucket1imgs.ks3-cn-beijing.ksyun.com/cmpp/2020/0604/550_325569_1535952502.jpg?uploadId=f5f34d613d514a04850f5e46db61dc05&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 04:51:49 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:PC5aHEE41NoWXsIv6XKW+LbE2aU=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(170): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(170): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(52): main->multipartUpload('/www/wwwroot/fi...', 'cmpp/2020/0604/...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(26): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:06:36 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:06:36 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:76:"http://bucket1imgs.ks3-cn-beijing.ksyun.com/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:06:36 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:c8TiFS7WbaIZiB3NDgpD1fltP54=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:06:36 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"c261c5465d2e42f898b91d374cc21cf0";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:76:"http://bucket1imgs.ks3-cn-beijing.ksyun.com/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:440;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.025069000000000001;s:15:"namelookup_time";d:0.00076499999999999995;s:12:"connect_time";d:0.0023730000000000001;s:16:"pretransfer_time";d:0.002405;s:11:"size_upload";d:0;s:13:"size_download";d:229;s:14:"speed_download";d:9160;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.024889999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"120.52.90.110";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:9018;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>a571c4313b884a248d04067f1fcba7f3</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:07:31 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"a571c4313b884a248d04067f1fcba7f3";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591247196.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 05:06:36 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=a571c4313b884a248d04067f1fcba7f3
+request url->s:123:"http://bucket1imgs.ks3-cn-beijing.ksyun.com/50_325569_1535952502.jpg?uploadId=a571c4313b884a248d04067f1fcba7f3&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:06:36 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:yMV6HeRYdxHNM2wS7kXiuHA4/Rg=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(173): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(173): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(55): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(29): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:17:12 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:17:12 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:17:12 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:vVcBTt+iBGFQfv3BhCO4DxgHMEM=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:17:12 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"b43e5ede4e5b4ae1a1c69f3583dbd07f";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.018929000000000001;s:15:"namelookup_time";d:0.00040400000000000001;s:12:"connect_time";d:0.00056800000000000004;s:16:"pretransfer_time";d:0.00059699999999999998;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:12666;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.018751;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.220";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:41448;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>772a0bcc1def4ccc8ed032475230a87c</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:18:07 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"772a0bcc1def4ccc8ed032475230a87c";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591247832.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 05:17:12 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=772a0bcc1def4ccc8ed032475230a87c
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=772a0bcc1def4ccc8ed032475230a87c&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:17:12 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:D172AV9z614w9JI7Pa8VhsKEizg=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(173): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(173): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(55): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(29): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:18:40 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:18:40 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:18:40 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:HX4YzpIbRyuLuCiCTtna0IKj6Vg=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:18:40 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"cdbc5da5093b4220887c57c7ea61ca50";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.020397999999999999;s:15:"namelookup_time";d:0.00058600000000000004;s:12:"connect_time";d:0.00079000000000000001;s:16:"pretransfer_time";d:0.00083799999999999999;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:11400;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.020330999999999998;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.220";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:44518;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>1bd35e42607b4e32b73b9cf5b17207c1</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:19:35 GMT INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"1bd35e42607b4e32b73b9cf5b17207c1";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591247920.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 05:18:40 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=1bd35e42607b4e32b73b9cf5b17207c1
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=1bd35e42607b4e32b73b9cf5b17207c1&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:18:40 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:kykk8VbH3VctckCfqKAH3/I7yHA=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(173): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(173): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(55): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(29): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:20:26 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:20:26 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:73:"http://ks3-cn-beijing-internal.ksyun.com/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:20:26 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:NBL50FM72onTpIL0iVUYfSBvP2U=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->404
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:20:26 GMT";s:12:"content-type";s:30:"application/xml; charset=UTF-8";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"eceee9c5b6bd4f56a0eb39a1bc623ea5";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:73:"http://ks3-cn-beijing-internal.ksyun.com/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:30:"application/xml; charset=UTF-8";s:9:"http_code";i:404;s:11:"header_size";i:313;s:12:"request_size";i:434;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.0036319999999999998;s:15:"namelookup_time";d:0.000638;s:12:"connect_time";d:0.00084400000000000002;s:16:"pretransfer_time";d:0.00088199999999999997;s:11:"size_upload";d:0;s:13:"size_download";d:211;s:14:"speed_download";d:70333;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.0035590000000000001;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.170";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:21752;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Error>
+    <Code>NotFoundApi</Code>
+    <Message>not found api</Message>
+    <Resource>/50_325569_1535952502.jpg/?uploads</Resource>
+    <RequestId>eceee9c5b6bd4f56a0eb39a1bc623ea5</RequestId>
+</Error>
+
+Ks3ServiceException: (errorCode:NotFoundApi;errorMessage:not found api;resource:/50_325569_1535952502.jpg/?uploads;requestId:eceee9c5b6bd4f56a0eb39a1bc623ea5;statusCode:404)
+------------------Logging End-------------------------
+
+Thu, 04 Jun 2020 05:25:14 GMT INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:25:14 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:73:"http://ks3-cn-beijing-internal.ksyun.com/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:25:14 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:7vK35OJpxdOJfdm/O3clgnIlTJ0=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->404
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:25:14 GMT";s:12:"content-type";s:30:"application/xml; charset=UTF-8";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"89a3d7e3c16043d989029f0097e6dcce";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:73:"http://ks3-cn-beijing-internal.ksyun.com/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:30:"application/xml; charset=UTF-8";s:9:"http_code";i:404;s:11:"header_size";i:313;s:12:"request_size";i:434;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.003529;s:15:"namelookup_time";d:0.00051099999999999995;s:12:"connect_time";d:0.00066799999999999997;s:16:"pretransfer_time";d:0.00070699999999999995;s:11:"size_upload";d:0;s:13:"size_download";d:211;s:14:"speed_download";d:70333;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.0033960000000000001;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.220";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:57928;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Error>
+    <Code>NotFoundApi</Code>
+    <Message>not found api</Message>
+    <Resource>/50_325569_1535952502.jpg/?uploads</Resource>
+    <RequestId>89a3d7e3c16043d989029f0097e6dcce</RequestId>
+</Error>
+
+Ks3ServiceException: (errorCode:NotFoundApi;errorMessage:not found api;resource:/50_325569_1535952502.jpg/?uploads;requestId:89a3d7e3c16043d989029f0097e6dcce;statusCode:404)
+------------------Logging End-------------------------
+
+2020-06-04 13:55:43 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:55:43 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:73:"http://ks3-cn-beijing-internal.ksyun.com/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:55:43 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:7v6D1XwlnbtXwiQohJqsmLal5EU=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->404
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:55:43 GMT";s:12:"content-type";s:30:"application/xml; charset=UTF-8";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"d52706eba7634b28932f8397f9c3fa67";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:73:"http://ks3-cn-beijing-internal.ksyun.com/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:30:"application/xml; charset=UTF-8";s:9:"http_code";i:404;s:11:"header_size";i:313;s:12:"request_size";i:434;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.002931;s:15:"namelookup_time";d:0.00058399999999999999;s:12:"connect_time";d:0.00087799999999999998;s:16:"pretransfer_time";d:0.00091200000000000005;s:11:"size_upload";d:0;s:13:"size_download";d:212;s:14:"speed_download";d:106000;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.0027859999999999998;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:55770;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Error>
+    <Code>NotFoundApi</Code>
+    <Message>not found api</Message>
+    <Resource>/50_325569_1535952502.jpg/?uploads</Resource>
+    <RequestId>d52706eba7634b28932f8397f9c3fa67</RequestId>
+</Error>
+
+Ks3ServiceException: (errorCode:NotFoundApi;errorMessage:not found api;resource:/50_325569_1535952502.jpg/?uploads;requestId:d52706eba7634b28932f8397f9c3fa67;statusCode:404)
+------------------Logging End-------------------------
+
+2020-06-04 13:57:23 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:57:23 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:57:23 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:XMiIZn7plmaclTZG/F93pE5JTjo=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:57:23 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"5d606cea46c24deb9ba25ae54dddd64f";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.018793000000000001;s:15:"namelookup_time";d:0.00047899999999999999;s:12:"connect_time";d:0.00063100000000000005;s:16:"pretransfer_time";d:0.00066699999999999995;s:11:"size_upload";d:0;s:13:"size_download";d:226;s:14:"speed_download";d:12555;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.018711999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.170";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:31908;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>bc64a6d7ff7a47fa906153ba3bd3bcfa</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 13:58:18 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"bc64a6d7ff7a47fa906153ba3bd3bcfa";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591250243.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 05:57:23 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=bc64a6d7ff7a47fa906153ba3bd3bcfa
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=bc64a6d7ff7a47fa906153ba3bd3bcfa&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:57:23 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:8l0DHs4Xdd5HDgi/B5xpcI0QEK0=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 13:58:18 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 05:58:18 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:58:18 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:Xxqhuox+zblIcZg7zYqQgMyqlN8=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 05:58:18 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"1a2eed1a39164ebe8b69f79efd4014f5";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.018904000000000001;s:15:"namelookup_time";d:0.00049200000000000003;s:12:"connect_time";d:0.00065200000000000002;s:16:"pretransfer_time";d:0.00068000000000000005;s:11:"size_upload";d:0;s:13:"size_download";d:226;s:14:"speed_download";d:12555;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.018703999999999998;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.213";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:34116;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>ace45b1ec45b41d485d05ceecb84480a</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 13:59:13 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"ace45b1ec45b41d485d05ceecb84480a";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591250298.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 05:58:18 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=ace45b1ec45b41d485d05ceecb84480a
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=ace45b1ec45b41d485d05ceecb84480a&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 05:58:18 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:L8AY5p+N7fI843RlY6YtZLiZTeo=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 15:13:18 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:13:18 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:13:18 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:/S1NxcBUlcnLOzgqLjyQAch4IuA=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:13:18 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"cdca4c3edaaf4eb1a94044937b3d2347";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.024285999999999999;s:15:"namelookup_time";d:0.00046500000000000003;s:12:"connect_time";d:0.00069200000000000002;s:16:"pretransfer_time";d:0.00073800000000000005;s:11:"size_upload";d:0;s:13:"size_download";d:227;s:14:"speed_download";d:9458;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.024202999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:18530;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>93c4b02b9b8e4ad5a062a593cc1fd76b</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:14:13 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"93c4b02b9b8e4ad5a062a593cc1fd76b";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591254798.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:13:18 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=93c4b02b9b8e4ad5a062a593cc1fd76b
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=93c4b02b9b8e4ad5a062a593cc1fd76b&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:13:18 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:GYZZO/qr/MRxm8MS6mkCo3++21M=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 15:15:20 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:15:20 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:15:20 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:JhZBbRhBtmgMhhTs88CVkmW0U68=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:15:20 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"020388ffd4384ff98382a699e5d3f87f";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.025323999999999999;s:15:"namelookup_time";d:0.00055699999999999999;s:12:"connect_time";d:0.00072800000000000002;s:16:"pretransfer_time";d:0.00077200000000000001;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:9120;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.025104999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.213";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:60014;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>4d20452867fc437db3f4939714bd3d77</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:15:43 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:15:43 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:15:43 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:B0WJn00krANgW/tSScp9Ypml/0o=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:15:43 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"aae23efbcc464093aeb93d0b84600e4d";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.02351;s:15:"namelookup_time";d:0.00058699999999999996;s:12:"connect_time";d:0.00093999999999999997;s:16:"pretransfer_time";d:0.00098900000000000008;s:11:"size_upload";d:0;s:13:"size_download";d:227;s:14:"speed_download";d:9869;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.023434;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:23106;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>d9a2a919c43b444f9cd28cbaf3a49efd</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:16:38 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"d9a2a919c43b444f9cd28cbaf3a49efd";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591254943.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:15:43 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=d9a2a919c43b444f9cd28cbaf3a49efd
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=d9a2a919c43b444f9cd28cbaf3a49efd&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:15:43 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:Uks6V0MZhr0T0b9Pz47pduFZzfQ=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 15:17:42 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:17:42 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:17:42 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:676e+AetMvKgh+qym9Etz8eCNw0=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:17:42 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"6bdff0296c094b7aaa6d0571025a1ddb";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.019602000000000001;s:15:"namelookup_time";d:0.00055999999999999995;s:12:"connect_time";d:0.00075600000000000005;s:16:"pretransfer_time";d:0.000812;s:11:"size_upload";d:0;s:13:"size_download";d:227;s:14:"speed_download";d:11947;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.019532999999999998;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.213";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:64416;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>e2f10578b5c24590903d5ad035dbaa73</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:17:59 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:17:59 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:17:59 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:RGYYi34Nhkob5AxQ94x5HUaybIQ=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:17:59 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"05138fe1239041ccbc4f9ac12437ae0f";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.024490999999999999;s:15:"namelookup_time";d:0.00037599999999999998;s:12:"connect_time";d:0.00058699999999999996;s:16:"pretransfer_time";d:0.000638;s:11:"size_upload";d:0;s:13:"size_download";d:227;s:14:"speed_download";d:9458;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.024421999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.170";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:63890;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>362dda444fa74cda894cc5abb9a1f68d</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:18:16 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:18:16 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:18:16 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:ETIvp0QsJd1qhEqe1tj1vIZsD/Q=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:18:16 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"3618f59f3e724cdf9162ae963d00ba1d";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.023092999999999999;s:15:"namelookup_time";d:0.00064700000000000001;s:12:"connect_time";d:0.00083900000000000001;s:16:"pretransfer_time";d:0.00088699999999999998;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:9913;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.023014;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.170";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:65184;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>3960f4b522d64c09a8f2cf2963d223bf</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:19:11 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"3960f4b522d64c09a8f2cf2963d223bf";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591255095.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:18:16 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=3960f4b522d64c09a8f2cf2963d223bf
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=3960f4b522d64c09a8f2cf2963d223bf&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:18:16 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:YdH5d1K7NHp8uCSrXnhztVIuhdU=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(175): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 15:19:11 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:19:11 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:19:11 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:kVCIwzjaqZo4rSzlYA3slHLbf9k=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:19:11 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"3472b91b57fe4c7b96cfece075225629";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.029652000000000001;s:15:"namelookup_time";d:0.00055199999999999997;s:12:"connect_time";d:0.00072199999999999999;s:16:"pretransfer_time";d:0.00075699999999999997;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:7862;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.029565000000000001;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.220";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:29116;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>c5887cc076d94e7cb43d8042fe630e4c</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:21:31 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:21:31 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:21:31 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:b5IBPkVByxSALjWCRAooypCVEsM=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:21:31 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"df4b4fe104a7485eabc1dbc54d72921a";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.039431000000000001;s:15:"namelookup_time";d:0.000504;s:12:"connect_time";d:0.00076300000000000001;s:16:"pretransfer_time";d:0.00080999999999999996;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:5846;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.039343000000000003;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:35258;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>8a866cde44664b4c91729524f79ac59b</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:22:26 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"8a866cde44664b4c91729524f79ac59b";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591255291.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:21:31 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=8a866cde44664b4c91729524f79ac59b
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=8a866cde44664b4c91729524f79ac59b&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:21:31 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:A467hw9YYBhHn7Nj1Id3giydykc=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 15:24:54 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:24:54 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:24:54 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:F/kS8VztOMMZ289kn3WW1KDYjMc=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:24:54 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"83e0d73504d44a8fa31f3a334e7345f6";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.024154999999999999;s:15:"namelookup_time";d:0.00062500000000000001;s:12:"connect_time";d:0.00093999999999999997;s:16:"pretransfer_time";d:0.00099700000000000006;s:11:"size_upload";d:0;s:13:"size_download";d:226;s:14:"speed_download";d:9416;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.024049999999999998;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:41394;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>438d81d4966341d39dd4284502ddbd5c</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:25:16 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:1:{s:15:"x-kss-meta-test";s:7:"example";}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:25:16 GMT
+x-kss-meta-test:example
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:5:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:15:"x-kss-meta-test";s:7:"example";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:25:16 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:U/uB3iwZr9+RCSUcuV9q/ckpr9w=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:25:16 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"b3cd38fdca864575bdafe75aa48073fe";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:458;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.019585999999999999;s:15:"namelookup_time";d:0.00039100000000000002;s:12:"connect_time";d:0.00055500000000000005;s:16:"pretransfer_time";d:0.00059000000000000003;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:12000;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.019522999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.213";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:15562;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>4ab40329fc324872a9000c6901e73ce4</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:26:14 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:0:{}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:26:14 GMT
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:26:14 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:rpv108I5obGD2TlTnWsIbjEyryU=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:26:14 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"6b771de952b04c6aa90e42ea36fc02a1";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:432;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.025617000000000001;s:15:"namelookup_time";d:0.00059000000000000003;s:12:"connect_time";d:0.000834;s:16:"pretransfer_time";d:0.00088900000000000003;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:9120;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.025381000000000001;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:12:"198.18.96.41";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:44592;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>51aefb82665140218ff5a2e0ee700345</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:26:36 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:0:{}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:26:36 GMT
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:26:36 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:IQvJRIWjViXdsb10HLw6ELD0HcA=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:26:36 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"b77b0d9a46ec45cb8b7aa94be7a982bc";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:432;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.019702999999999998;s:15:"namelookup_time";d:0.00048799999999999999;s:12:"connect_time";d:0.00066299999999999996;s:16:"pretransfer_time";d:0.00069899999999999997;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:12000;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.019571999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.220";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:44494;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>7b62d714d4ca47c49dcd44817f3e36a2</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:26:52 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:0:{}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:26:52 GMT
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:26:52 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:qYf9Lzjh9jbjyN15eqy5CUM5Xk8=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:26:52 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"74dc7b9a631342328dc288be1d36c251";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:432;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.019706000000000001;s:15:"namelookup_time";d:0.00045300000000000001;s:12:"connect_time";d:0.00067599999999999995;s:16:"pretransfer_time";d:0.00071599999999999995;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:12000;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.019628;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.170";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:17680;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>d4838957282f40e69e903c6335a43396</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:27:47 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"d4838957282f40e69e903c6335a43396";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591255612.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:26:52 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=d4838957282f40e69e903c6335a43396
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=d4838957282f40e69e903c6335a43396&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:26:52 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:LPaMQcaaU3Pipgg5MSxqBmkR5Vc=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 15:32:09 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:0:{}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:32:09 GMT
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:32:09 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:ZPMPkI1ww3Vl0Lt2FpSGA+sa4ak=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:32:09 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"bce5d69e6deb44f886d1ac0541f9382b";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:432;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.019578000000000002;s:15:"namelookup_time";d:0.00058100000000000003;s:12:"connect_time";d:0.00072999999999999996;s:16:"pretransfer_time";d:0.00076300000000000001;s:11:"size_upload";d:0;s:13:"size_download";d:229;s:14:"speed_download";d:12052;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.019477999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.220";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:55384;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>7cb3ddb47baf426f8bc6bc2912304e3e</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:32:09 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"7cb3ddb47baf426f8bc6bc2912304e3e";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591255928.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+POST
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:32:09 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=7cb3ddb47baf426f8bc6bc2912304e3e
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=7cb3ddb47baf426f8bc6bc2912304e3e&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:32:09 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:+9Q5jLEw1XaHe4W79iGCUgFwt3s=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+response code->404
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:32:09 GMT";s:12:"content-type";s:30:"application/xml; charset=UTF-8";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"a430cc9689a14c89af780fa43fc86e4f";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=7cb3ddb47baf426f8bc6bc2912304e3e&partNumber=1";s:12:"content_type";s:30:"application/xml; charset=UTF-8";s:9:"http_code";i:404;s:11:"header_size";i:313;s:12:"request_size";i:539;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.0024160000000000002;s:15:"namelookup_time";d:0.00036900000000000002;s:12:"connect_time";d:0.00052300000000000003;s:16:"pretransfer_time";d:0.00055099999999999995;s:11:"size_upload";d:0;s:13:"size_download";d:259;s:14:"speed_download";d:129500;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.002385;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.170";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:28564;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Error>
+    <Code>NotFoundApi</Code>
+    <Message>not found api</Message>
+    <Resource>/bucket1imgs/50_325569_1535952502.jpg?uploadId=7cb3ddb47baf426f8bc6bc2912304e3e&amp;partNumber=1</Resource>
+    <RequestId>a430cc9689a14c89af780fa43fc86e4f</RequestId>
+</Error>
+
+Ks3ServiceException: (errorCode:NotFoundApi;errorMessage:not found api;resource:/bucket1imgs/50_325569_1535952502.jpg?uploadId=7cb3ddb47baf426f8bc6bc2912304e3e&partNumber=1;requestId:a430cc9689a14c89af780fa43fc86e4f;statusCode:404)
+------------------Logging End-------------------------
+
+2020-06-04 15:37:52 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:0:{}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:37:52 GMT
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:37:52 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:mXjfWBtJDJnchm0Pytsnz5W4+Hc=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:37:52 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"335930b58436479b9ba6862cddf1f417";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:432;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.026588000000000001;s:15:"namelookup_time";d:0.00077800000000000005;s:12:"connect_time";d:0.00098499999999999998;s:16:"pretransfer_time";d:0.001041;s:11:"size_upload";d:0;s:13:"size_download";d:227;s:14:"speed_download";d:8730;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.026336999999999999;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.220";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:2222;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>a4bc53d70cce4615a5204b133de56319</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:38:47 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"a4bc53d70cce4615a5204b133de56319";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591256272.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:37:52 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=a4bc53d70cce4615a5204b133de56319
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=a4bc53d70cce4615a5204b133de56319&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:37:52 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:cdQjMQIJDNF4UexSd02VU/7/FGA=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+
+2020-06-04 15:52:20 INFO
+------------------Logging Start-------------------------
+method->initMultipartUpload args->a:1:{i:0;a:4:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:8:"UserMeta";a:0:{}s:10:"ObjectMeta";a:0:{}}}
+key encoding ASCII
+stringToSing->
+POST
+
+image/jpeg
+Thu, 04 Jun 2020 07:52:20 GMT
+/bucket1imgs/50_325569_1535952502.jpg?uploads
+request url->s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:10:"image/jpeg";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:52:20 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:piHq4wSuzHksekwZf/HRRH2CTy0=";}
+request body->
+request read stream length->
+request read stream seek position->
+response code->200
+response headers->a:10:{s:6:"server";s:7:"Tengine";s:4:"date";s:29:"Thu, 04 Jun 2020 07:52:20 GMT";s:12:"content-type";s:15:"application/xml";s:17:"transfer-encoding";s:7:"chunked";s:10:"connection";s:10:"keep-alive";s:4:"vary";s:15:"Accept-Encoding";s:21:"x-application-context";s:11:"application";s:16:"x-kss-request-id";s:32:"b52b6835e5d24ec2befba0544bf83333";s:16:"content-encoding";s:4:"gzip";s:5:"_info";a:27:{s:3:"url";s:85:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploads";s:12:"content_type";s:15:"application/xml";s:9:"http_code";i:200;s:11:"header_size";i:291;s:12:"request_size";i:432;s:8:"filetime";i:-1;s:17:"ssl_verify_result";i:0;s:14:"redirect_count";i:0;s:10:"total_time";d:0.021533;s:15:"namelookup_time";d:0.00061799999999999995;s:12:"connect_time";d:0.00078600000000000002;s:16:"pretransfer_time";d:0.00082600000000000002;s:11:"size_upload";d:0;s:13:"size_download";d:228;s:14:"speed_download";d:10857;s:12:"speed_upload";d:0;s:23:"download_content_length";d:-1;s:21:"upload_content_length";d:0;s:18:"starttransfer_time";d:0.021447999999999998;s:13:"redirect_time";d:0;s:12:"redirect_url";s:0:"";s:10:"primary_ip";s:13:"198.18.96.170";s:8:"certinfo";a:0:{}s:12:"primary_port";i:80;s:8:"local_ip";s:9:"10.0.0.54";s:10:"local_port";i:5358;s:6:"method";s:4:"POST";}}
+response body-><?xml version="1.0" encoding="UTF-8" standalone="yes"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>bucket1imgs</Bucket><Key>50_325569_1535952502.jpg</Key><UploadId>e608604fa07c45b1aa43d5d1e68cbb79</UploadId></InitiateMultipartUploadResult>
+------------------Logging End-------------------------
+
+2020-06-04 15:53:15 INFO
+------------------Logging Start-------------------------
+method->uploadPart args->a:1:{i:0;a:5:{s:6:"Bucket";s:11:"bucket1imgs";s:3:"Key";s:24:"50_325569_1535952502.jpg";s:7:"Options";a:2:{s:10:"partNumber";i:1;s:8:"uploadId";s:32:"e608604fa07c45b1aa43d5d1e68cbb79";}s:10:"ObjectMeta";a:1:{s:14:"Content-Length";i:5242880;}s:7:"Content";a:2:{s:7:"content";s:83:"/www/wwwroot/file.idc.renbenzhihui.com/controller/cacheLittleFile/lf-1591257140.jpg";s:13:"seek_position";i:0;}}}
+key encoding ASCII
+stringToSing->
+PUT
+
+application/ocet-stream
+Thu, 04 Jun 2020 07:52:20 GMT
+/bucket1imgs/50_325569_1535952502.jpg?partNumber=1&uploadId=e608604fa07c45b1aa43d5d1e68cbb79
+request url->s:132:"http://ks3-cn-beijing-internal.ksyun.com/bucket1imgs/50_325569_1535952502.jpg?uploadId=e608604fa07c45b1aa43d5d1e68cbb79&partNumber=1";
+request headers->a:4:{s:10:"User-Agent";s:15:"ks3-kss-php-sdk";s:12:"Content-Type";s:23:"application/ocet-stream";s:4:"Date";s:29:"Thu, 04 Jun 2020 07:52:20 GMT";s:13:"Authorization";s:59:"KSS AKLTRy8w6Sg5TsiKlqptxF4Few:YAxraou7OzTZEcEdQ59sH1nETmY=";}
+request body->
+request read stream length->5242880
+request read stream seek position->0
+exception 'RequestCore_Exception' with message 'cURL resource: Resource id #38; cURL error: Empty reply from server (52)' in /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/lib/RequestCore.class.php:823
+Stack trace:
+#0 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(307): RequestCore->send_request()
+#1 /www/wwwroot/file.idc.renbenzhihui.com/include/ks3File/Ks3Client.class.php(118): Ks3Client->invoke('uploadPart', Array, Object(MessageHolder))
+#2 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->__call('uploadPart', Array)
+#3 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(176): Ks3Client->uploadPart(Array)
+#4 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(57): main->multipartUpload('/www/wwwroot/fi...', '50_325569_15359...')
+#5 /www/wwwroot/file.idc.renbenzhihui.com/controller/main.php(31): main->putFetch('http://x0.ifeng...')
+#6 /www/wwwroot/file.idc.renbenzhihui.com/SpeedPHP/spFunctions.php(21): main->synFile()
+#7 /www/wwwroot/file.idc.renbenzhihui.com/index.php(8): spRun()
+#8 {main}
+------------------Logging End-------------------------
+

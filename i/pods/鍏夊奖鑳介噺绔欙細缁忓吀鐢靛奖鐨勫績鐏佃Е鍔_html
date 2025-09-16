@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>好电影有足够能量等观众欣赏</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f4f0;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #8b5cf6;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(139, 92, 246, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #10b981;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(16, 185, 129, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+        .movie-highlight {
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(245,245,255,0.8) 50%, rgba(255,255,255,0) 100%);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">好电影有足够能量等观众欣赏</h1>
+            <p class="text-gray-600">探索那些穿越时间、带来感动与能量的经典电影</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/n00kjwBy7II/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/c577a20f14f54a81b3746cabee157ec8.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-closed-captioning mr-2 text-purple-500"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到今天的播客，我们今天要聊的是那些，能够穿越时间，给大家带来很多能量很多感动的好电影。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 听着就很期待，那我们就直接开始吧，就直接开始说这些，让人难忘的作品。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得就是在这样一个，大家都很快节奏的时代里面，好的电影到底能够给大家带来一些什么样的特殊的意义呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 好的电影就像是一座灯塔，它会，穿透这个屏幕，然后直抵你的心灵。就是它，传递给你的一些感动和一些启发。是能够跨越，时空去，触动，各种各样的人，让大家都能够，产生共鸣，就是那种力量是非常。经久不衰的，对。</p>
+                
+                <div class="movie-highlight">
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 那比如说像这种励志类的电影，大家经常会说，很有力量，那它到底是通过一些什么样的故事？什么样的表达来，打动人的呢？</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 比如说像这个当幸福来敲门，嗯它就是讲一个，克里斯加德纳他如何从。一个，几乎破产然后妻离子散的这样的一个人。最后通过自己的坚持，成为了一个成功的股票经纪人。他中间有很多让你非常，难忘的画面比如说他带着他的儿子。在地铁的厕所里面过夜，他捂着他儿子的耳朵自己，流泪。包括他最后，终于获得了那个职位他在，人群当中，激动的红了眼眶。就是这都是一些，非常让人感动的，坚持的力量。</p>
+                    
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 听起来就确实很打动人，对，就会让你觉得希望是无论如何都不能放弃的东西。</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 对还有比如说像风雨哈佛路，嗯它讲的是一个，出生在，贫民窟的一个女孩。莉丝默里，她如何通过自己的努力。从，父母吸毒然后家庭非常的破碎。自己在，地铁上面学习在公园的长椅上面睡觉，最后考上了哈佛。就他的这个故事就告诉我们，你无论。起点多么的低，你都是可以通过知识改变自己的命运的。</p>
+                </div>
+                
+                <div class="movie-highlight">
+                    <p class="mb-3"><span class="speaker-a">女生:</span> ，情感类的电影，有哪些让你觉得，就是特别打动人的，它是怎么做到的？</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 比如说忠犬八公的故事，它就是讲一只秋田犬。八公，他每天都在车站等他的主人下班。然后他的主人去世了之后他依然等了九年。就这个故事其实非常的简单，但是他就是用这种，非常平实的。情感，去打动了无数的观众。就是它让你看到了，什么是真正的忠诚，就是这种爱，是可以跨越。生死的，对。</p>
+                    
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 真的，每次想到那个画面都觉得特别，特别温暖又特别心酸。</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 还有就是海上钢琴师，嗯它其实也是。通过一个故事，非常传奇的一个人物。1900 他，一生都没有下过船。然后最后他也选择了跟这个邮轮一起沉没，他用他的钢琴去表达他对这个世界的理解。他也在他的孤独当中找到了，属于他的那种自由。他的那种坚持，就是让你觉得。也非常的，发人深省，就是你会去想，自由到底是什么，你也会去想坚持自己的内心到底有多重要。</p>
+                </div>
+                
+                <div class="movie-highlight">
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 科幻类的电影，它又常常被人说是，启发思维的，那它是怎么做到的呢？它是通过一些什么样的主题什么样的情节来给你这种感受的呢？</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 比如说像星际穿越，嗯它其实。一方面给你展现了非常震撼的宇宙的景象。然后另一方面它又通过，库珀和他的女儿墨菲之间的这种，情感的纽带。让你觉得，爱竟然可以跨越。时空，去传递信息。包括他们最后，人类的未来就靠，墨菲去解开那个谜题。就是它其实是把，亲情，放在了一个。非常宏大的宇宙的背景下面去讲，所以你会觉得。非常的震撼，同时你也会觉得，爱其实是有很强大的力量的。</p>
+                    
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 对这种，这种把情感和科学结合的这么好的，确实让人过目难忘。</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 还有就是盗梦空间，嗯它其实就是通过这种。非常复杂的叙事结构。让你，游走在梦境和现实之间。然后你会去思考，什么是真实的，什么是虚幻的。包括他最后那个，陀螺到底有没有停下来，也让大家一直都在，讨论。就是它其实是让你在看电影的同时，也在锻炼你的思维能力。同时你也会对，我们的意识和我们的现实，有更深刻的思考。</p>
+                </div>
+                
+                <div class="movie-highlight">
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得就是动画电影，它除了给孩子带来欢乐之外，还有没有一些，更深层次的价值？</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 当然有啊比如说像千与千寻，嗯它其实就是通过一个，小女孩千寻的冒险。她从一个，很胆小很懦弱的。然后最后变成了一个很勇敢的可以拯救自己父母的这样的一个。角色，包括他里面有一句台词就特别经典就是。不要忘记自己的名字，就是其实他就是在告诉我们，无论你身处什么样的环境。你都要，坚守自己的初心。就这个其实是非常，有意义的一个，成长的主题。对，给无论是孩子还是成年人其实都是有很多启发的。</p>
+                    
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 对这个确实，就这个冒险的故事里面其实藏了很多对人生的思考。</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 还有就是疯狂动物城，嗯它其实是用一个动物的世界。来比喻我们的人类社会，然后它里面通过兔子朱迪。他想要，打破偏见，去当警察。这样的一个梦想，包括他在中间。遇到的各种各样的困难他怎么去，用行动去证明自己。它里面其实也探讨了很多关于。偏见和包容的这样的一个主题。它也在，幽默和欢乐当中给我们传递了，很多很深刻的，社会意义。就是每个人都不应该被别人的看法所定义，你都可以去。大胆的追求自己的梦想。</p>
+                </div>
+                
+                <div class="movie-highlight">
+                    <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得就是现实题材的电影，它又常常被人说是，能够反映社会问题的。那它是怎么做到的呢？它是通过一些什么样的故事什么样的表达来，让你有这种感受的呢？</p>
+                    
+                    <p class="mb-3"><span class="speaker-b">男生:</span> 比如说熔炉，嗯它其实是。根据一个真实的事件改编的，然后它讲的是一个聋哑学校里面的。性暴力的事件，那它就是非常直白的把。这个社会的，黑暗的一面揭露出来。它不光是让你，非常的愤怒，同时它也推动了法律的变革。就是它这种，对社会的影响。就让你觉得，电影，不仅仅是娱乐，它还可以成为一种推动社会进步的力量。对，对就是你会觉得，我们要为这些，弱者发声，我们要捍卫正义。</p>
+                </div>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得为什么有些电影它就可以成为经典，就可以，一直被传颂，然后给大家带来这种力量？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是经典的电影它一定是。蕴含着一些，能够触动人心的能量的，对，比如说它让你看到了希望。或者说它让你感受到了爱。或者说它让你对于人生有了一些思考，它一定是有一些东西的，所以我觉得就是。好的电影就是他会一直，在那里等你去发现他的魅力。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对今天我们聊了这么多，不同类型的，经典的电影，然后我们其实看到了这些，电影背后它。蕴含的这些深刻的意义和它带给我们的能量。无论是励志的，还是情感的，还是科幻的，还是动画的，还是现实题材的。每一种都有它独特的，打动我们的地方。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 那以上就是这期播客的全部内容啦，然后希望大家。也能够，找到属于你自己的那一部，经典的电影。我们下期再见吧，拜拜拜拜。</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-purple-500 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>

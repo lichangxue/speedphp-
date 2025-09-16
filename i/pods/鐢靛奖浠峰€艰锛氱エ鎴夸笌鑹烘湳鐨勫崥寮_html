@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电影没有奇迹 不在乎观众人数</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8f1f1;
+            color: #2d3748;
+            line-height: 1.7;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(31, 38, 135, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glassmorphism:hover {
+            box-shadow: 0 15px 45px rgba(31, 38, 135, 0.15);
+            transform: translateY(-3px);
+        }
+        .speaker-a {
+            color: #9c27b0;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(156, 39, 176, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-b {
+            color: #2196f3;
+            font-weight: 600;
+            padding: 0.3rem 0.6rem;
+            border-radius: 6px;
+            background-color: rgba(33, 150, 243, 0.1);
+            transition: all 0.3s ease;
+        }
+        .speaker-a:hover, .speaker-b:hover {
+            transform: translateX(3px);
+        }
+        .transcript-container {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+        }
+        .transcript-container p {
+            margin-bottom: 1.5rem;
+            padding: 0.8rem 0;
+            line-height: 1.8;
+        }
+        .active-line {
+            margin: 1rem -2rem;
+            padding: 1.2rem 2rem;
+        }
+        .waveform {
+            height: 160px;
+            width: 100%;
+            aspect-ratio: 21/9;
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .waveform:hover {
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">电影没有奇迹 不在乎观众人数</h1>
+            <p class="text-gray-600">探讨电影价值与观众数量的关系</p>
+        </div>
+
+        <div class="glassmorphism p-6 mb-8">
+            <div class="waveform mb-4" style="background-image: url('https://s.coze.cn/image/2lh1_baEo9w/')"></div>
+            
+            <div class="flex items-center justify-between mb-4">
+                <audio id="podcast-audio" controls class="w-full">
+                    <source src="https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/sami_podcast/tts/f6bc75e9210b48c885f4a9bc7c6b0c1b.mp3" type="audio/mpeg">
+                    您的浏览器不支持音频播放
+                </audio>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">*若商用，需要声明由扣子空间生成</p>
+        </div>
+         
+        <div class="glassmorphism p-6">
+            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                <i class="fas fa-closed-captioning mr-2 text-purple-500"></i>播客字幕
+            </h2>
+            
+            <div class="transcript-container p-4 bg-gray-50 rounded-lg" id="transcript">
+                <p class="mb-3"><span class="speaker-a">女生:</span> 哈喽大家好欢迎来到今天的播客，嗯我们今天想聊一聊关于电影的一些话题。嗯，就是在现在这个时代，好像大家都很追求票房，很追求流量的这个时代。嗯，到底电影的价值，应该由什么来决定？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 嗯，对这个话题很有意思，那我们就直接开始吧。嗯，就是说电影是不是不能只靠？观众的数量来评判它的好坏。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那咱们先从，电影的创作本身说起，嗯你觉得电影的创作过程，是一个充满奇迹的过程吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 不是我觉得，电影更像是一个，累积，就是无数的人。导演，编剧，演员，他们的，努力，嗯，就比如说阿凡达，嗯他其实筹备了很多年。然后技术上的研发，包括，那个潘多拉星球的所有的生物的设计。都是，非常非常，巨大的心血。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得，当一个电影进入到市场之后，它的票房的表现，是一个可预测的事情吗？是一个靠奇迹的事情吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 也不是吧就是，市场的喜好。也是一直在变的而且很复杂，比如说，很精良的文艺片。他可能就因为不是商业大片，然后就没有什么排片，小众的电影就更没有什么生存空间再加上一些。经济啊，社会热点啊，各种东西都会影响。票房，嗯哼嗯。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那你觉得观众在选择要看什么电影的时候，他是一个完全理性的过程吗？就完全是基于这个电影的质量吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 也不一定吧因为现在有很多。社交媒体的影响，那很多评价都是非常片面的或者非常情绪化的。然后再加上观众的喜好也很不一样，有的人就喜欢看动作片有的人就喜欢看爱情片。那你这个电影也不可能做到。面面俱到。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那你觉得如果电影创作者，太在意观众的数量的话会对电影行业产生哪些，负面的影响呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 就是会让大家都去拍那种商业片然后。就会。没有那么多艺术的深度和创新，就会让市场上都是那种差不多的东西。但是，也有一些导演就是完全。专注于自己的艺术表达，也不在意这个票房，那他可能就会给电影史。留下一些非常，独一无二的，作品，就比如说王家卫的电影。就他就是，虽然票房不是那么高但是他很受。影迷和影评人的喜爱。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 那你觉得，有没有可能存在这样的电影，它既可以在艺术上面。登峰造极，然后同时又可以在票房上面大卖，就是这两者是完全互斥的吗？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 也不一定吧就是，比如说寄生虫。他就是，既有很深刻的社会议题然后同时他的剧情也非常的吸引人。他也拿了那么多国际大奖同时他在全球也有非常惊人的票房成绩，那我觉得这个就是。他就是找到了一个。非常微妙的平衡。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 你觉得现在的电影，应该更看重观众的数量，还是更应该专注于自己的创作质量和艺术表达呢？</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> 我觉得就是电影它本身。就是一个需要很多人付出很多努力的一个东西然后再加上市场上面有这么多复杂的因素。所以我觉得，它的核心还是要回归到艺术的这个，初衷。就是你要去表达一些东西，你要去。创造出一些，有深度的有价值的东西，我觉得这样的话才能够。让电影，这个艺术形式，不断的，繁荣下去。</p>
+                
+                <p class="mb-3"><span class="speaker-a">女生:</span> 对我觉得我们今天其实聊了这么多就是想说。电影它的价值，从来都不是单纯的由观众的数量去决定的。嗯它其实是很多很多因素，包括创作的心血。包括市场的博弈包括观众的选择，等等等等，很多因素共同作用的结果。</p>
+                
+                <p class="mb-3"><span class="speaker-b">男生:</span> OK 了以上就是这期播客的全部内容啦，然后感谢大家的收听我们下期再见吧，拜拜拜拜！</p>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>页面内容均由 AI 生成，仅供参考</p>
+            <p>created by <a href="https://space.coze.cn" class="text-purple-500 hover:underline">coze space</a></p>
+        </div>
+    </div>
+</body>
+</html>
